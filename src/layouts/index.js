@@ -4,11 +4,19 @@ import Helmet from 'react-helmet'
 
 import './index.css'
 
+// Components
+import NavBar from '../pages/components/navbar'
+
+// Images
+import favicon from '../images/favicon.jpg'
+
 const Layout = ({ children }) => (
   <div>
-    <Helmet
-      title="Bowie-Internal-Medicine-Website"
-    />
+    <Helmet>
+      <title>Bowie-Internal-Medicine-Website</title>
+      <link rel='shortcut icon' href={favicon} sizes='16x16' />
+    </Helmet>
+    <NavBar />
     <div className="main-wrapper">
       {children()}
     </div>
