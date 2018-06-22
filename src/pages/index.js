@@ -1,11 +1,22 @@
+// React + Gatsby
 import React from 'react'
 import Link from 'gatsby-link'
 
-const IndexPage = () => (
+// Components
+
+// Images
+import homeimage from '../images/home-page-image.jpg'
+
+const HomePage = () => (
   <div>
-    <h1>Bowie Internal Medicine</h1>
-    <Link to="/about/">About</Link>
+    <div>
+      <h1>Latest News</h1>
+    </div>
+    <div>
+      <img alt="Home Page Image" src={homeimage} />
+    </div>
+    <h1>Bowie Internal Medicine Associates</h1>
   </div>
 );
 
-export default IndexPage;
+export default HomePage;
