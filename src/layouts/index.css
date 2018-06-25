@@ -4,6 +4,8 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 body {
+  font-family: Arial, serif;
+  background-color: #f4f4f4;
   margin: 0;
 }
 article,
@@ -628,25 +630,19 @@ pre tt:after {
   overflow-x: hidden;
 }
 
+.navbar {
+  background-color: #3b5998;
+  overflow: hidden;
+  height: 63px;
+}
+
 .logo {
   width: 300px;
-  height: 100%;
   float: left;
-  margin: 20px 0 40px 0;
 }
 
 .logo-image {
-  position: 50px;
-}
-
-.utility-links {
-  justify-content: space-evenly;
-  display: flex;
-  float: right;
-}
-
-.container {
-  width: 80%
+  height: 87px;
 }
 
 .menu-items {
