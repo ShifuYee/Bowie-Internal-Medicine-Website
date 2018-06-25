@@ -13,12 +13,14 @@ import favicon from '../images/favicon.jpg'
 const Layout = ({ children }) => (
   <div>
     <Helmet>
-      <title>Bowie-Internal-Medicine-Website</title>
+      <title>Bowie Internal Medicine Website</title>
       <link rel='shortcut icon' href={favicon} sizes='16x16' />
     </Helmet>
-    <NavBar />
-    <div className="main-wrapper">
-      {children()}
+    <div className="container">
+      <NavBar />
+      <div className="main-wrapper">
+        {children()}
+      </div>
     </div>
   </div>
 )
