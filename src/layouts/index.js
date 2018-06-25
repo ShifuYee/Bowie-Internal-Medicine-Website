@@ -11,14 +11,16 @@ import NavBar from '../pages/components/navbar'
 import favicon from '../images/favicon.jpg'
 
 const Layout = ({ children }) => (
-  <div>
+  <div id="main">
     <Helmet>
-      <title>Bowie-Internal-Medicine-Website</title>
+      <title>Bowie Internal Medicine Website</title>
       <link rel='shortcut icon' href={favicon} sizes='16x16' />
     </Helmet>
-    <NavBar />
-    <div className="main-wrapper">
-      {children()}
+    <div>
+      <NavBar />
+      <div className="main-wrapper">
+        {children()}
+      </div>
     </div>
   </div>
 )
