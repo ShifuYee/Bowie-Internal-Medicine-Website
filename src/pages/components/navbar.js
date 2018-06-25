@@ -29,9 +29,6 @@ class NavBar extends React.Component {
     return (
       <div>
         <nav className="navbar">
-          <a href="/" className="logo">
-            <img className="logo-img" alt="Bowie Internal Medicine home" src={logo} />
-          </a>
           <span className="open-slide">
             <a href="#" onClick={this.openSlideMenu}>
               <svg width="30" height="30">
@@ -41,36 +38,39 @@ class NavBar extends React.Component {
               </svg>
             </a>
           </span>
-
-          <ul className="menu-items">
-              <li>
-                <Link to="/about/">About Us</Link>
-              </li>
-              <li>
-                <Link to="/about/">For Patients</Link>
-              </li>
-              <li>
-                <Link to="/about/">Providers & Staff</Link>
-              </li>
-              <li>
-                <Link to="/about/">Resources</Link>
-              </li>
-              <li>
-                <Link to="/about/">Pay</Link>
-              </li>
-              <li>
-                <Link to="/about/">Portal</Link>
-              </li>
-              <li>
-                <Link to="/about/">Contact Us</Link>
-              </li>
-            </ul>
+          <Link to="/">
+            <img alt="Bowie Internal Medicine home" src={logo} />
+          </Link>
+          <ul className="navbar-nav">
+            <li>
+              <Link to="/about/">About Us</Link>
+            </li>
+            <li>
+              <Link to="/about/">For Patients</Link>
+            </li>
+            <li>
+              <Link to="/about/">Providers & Staff</Link>
+            </li>
+            <li>
+              <Link to="/about/">Resources</Link>
+            </li>
+            <li>
+              <Link to="/about/">Pay</Link>
+            </li>
+            <li>
+              <Link to="/about/">Portal</Link>
+            </li>
+            <li>
+              <Link to="/about/">Contact Us</Link>
+            </li>
+          </ul>
         </nav>
 
         <div id="side-menu" className="side-nav">
           <a href="#" className="btn-close" onClick={this.closeSlideMenu}>
             &times;
           </a>
+          <Link to="/">Home</Link>
           <Link to="/about/">About Us</Link>
           <Link to="/about/">For Patients</Link>
           <Link to="/about/">Providers & Staff</Link>
