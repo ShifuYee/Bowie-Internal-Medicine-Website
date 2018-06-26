@@ -15,8 +15,8 @@ const Layout = ({ children }) => (
   <div id="main">
     <Helmet>
       <title>Bowie Internal Medicine Website</title>
-      <script src="https://maps.googleapis.com/maps/api/js?callback=myMap" />
       <link rel='shortcut icon' href={favicon} sizes='16x16' />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
     </Helmet>
     <div>
       <NavBar />
