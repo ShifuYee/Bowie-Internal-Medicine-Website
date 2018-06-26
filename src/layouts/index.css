@@ -646,9 +646,20 @@ pre tt:after {
   font-size: 17px;
 }
 
+.navbar-nav {
+  float: right;
+}
+
+.navbar-nav li {
+  float: left;
+  line-height: 57px;
+}
+
 .navbar ul {
   margin: 8px 0 0 0;
   list-style: none;
+  position: absolute;
+  right: 500px;
 }
 
 .navbar-nav a:hover {
@@ -694,7 +705,6 @@ pre tt:after {
 
 #main {
   transition:margin-left 0.5s;
-  padding: 20px;
   overflow: hidden;
   width: 100%;
 }
@@ -705,4 +715,42 @@ pre tt:after {
 
 @media(min-width:1225px) {
   .open-slide{display: none}
+}
+
+.divider {
+  width: 20px;
+  margin: 6px 0;
+  background: red;
+}
+
+footer {
+  display: block;
+  padding: 35px 0;
+  background-color: #5f6164;
+  height: 500px;
+}
+
+footer .contact-info {
+  float: left;
+}
+
+footer h3 {
+  padding: 0 20px 0 20px;
+}
+
+.contact-info {
+  width: 50%;
+}
+
+.mapouter {
+  text-align: right;
+  height: 400px;
+  width: 100%;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none!important;
+  height: 400px;
+  width: 100%;
 }
