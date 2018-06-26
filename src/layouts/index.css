@@ -646,10 +646,6 @@ pre tt:after {
   font-size: 17px;
 }
 
-.navbar-nav {
-  float: right;
-}
-
 .navbar-nav li {
   float: left;
   line-height: 57px;
@@ -658,7 +654,6 @@ pre tt:after {
 .navbar ul {
   margin: 8px 0 0 0;
   list-style: none;
-  position: absolute;
   right: 500px;
 }
 
@@ -710,22 +705,20 @@ pre tt:after {
 }
 
 @media(max-width:1225px) {
-  .navbar-nav{display: none}
+  .navbar-nav {
+    display: none;
+  }
 }
 
 @media(min-width:1225px) {
-  .open-slide{display: none}
-}
-
-.divider {
-  width: 20px;
-  margin: 6px 0;
-  background: red;
+  .open-slide {
+    display: none;
+  }
 }
 
 footer {
   display: block;
-  padding: 35px 0;
+  padding: 50px 0;
   background-color: #5f6164;
   height: 500px;
 }
@@ -735,7 +728,7 @@ footer .contact-info {
 }
 
 footer h3 {
-  padding: 0 20px 0 20px;
+  padding: 0 20px 0 30px;
 }
 
 .contact-info {
@@ -753,4 +746,10 @@ footer h3 {
   background: none!important;
   height: 400px;
   width: 100%;
+}
+
+.home-body {
+  position: relative;
+  margin: 0 auto;
+  width: 1060px;
 }
