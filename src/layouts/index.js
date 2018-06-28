@@ -1,8 +1,11 @@
+import './index.css'
+
+// React + Gatsby
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-
-import './index.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebook, faTwitter, faGoogle } from '@fortawesome/free-brands-svg-icons'
 
 // Components
 import NavBar from '../pages/components/navbar'
@@ -22,6 +25,17 @@ const Layout = ({ children }) => (
       <NavBar />
       <div className="main-wrapper">
         {children()}
+      </div>
+      <div className="icon-bar">
+        <a href="#" className="facebook">
+          <FontAwesomeIcon icon={faFacebook} />
+        </a>
+        <a href="#" className="twitter">
+          <FontAwesomeIcon icon={faTwitter} />
+        </a>
+        <a href="#" className="google">
+          <FontAwesomeIcon icon={faGoogle} />
+        </a>
       </div>
       <Footer />
     </div>
