@@ -139,7 +139,7 @@ footer {
   display: block;
   padding: 50px 0;
   background-color: #5f6164;
-  height: 500px;
+  height: 400px;
 }
 
   footer .contact-info {
@@ -147,7 +147,7 @@ footer {
   }
 
   footer h3 {
-    padding: 0 20px 0 30px;
+    padding: 0 20px 0 60px;
   }
 
 .contact-info {
@@ -157,6 +157,7 @@ footer {
 .mapouter {
   text-align: right;
   height: 400px;
+  float: left;
 }
 
 .gmap_canvas {
@@ -173,10 +174,17 @@ footer {
   width: 1060px;
 }
 
+.office-hours {
+  width: 300px;
+  margin: 0 auto;
+  background-color: #ffecc6;
+}
+
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
   text-align: center;
+  padding: 10px;
 }
 
 /***** Media Restrictions *****/
