@@ -61,15 +61,17 @@ body {
 
 /***** Navbar (../pages/components/navbar.js) *****/
 .main-nav {
+  opacity: 1;
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1;
 }
 
 .navbar {
   background-color: #3b5998;
-  overflow: hidden;
   height: 100px;
+  overflow: hidden;
 }
 
   .navbar a {
@@ -86,6 +88,33 @@ body {
     margin: 8px 0 0 0;
     list-style: none;
     right: 500px;
+  }
+
+  .navbar .search-container {
+    float: right;
+    margin-top: 20px;
+  }
+
+  .navbar .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background-color: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .navbar .search-container button:hover {
+    background: #ccc;
+  }
+
+  .navbar input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
   }
 
 .navbar-nav li {
@@ -139,7 +168,7 @@ footer {
   display: block;
   padding: 50px 0;
   background-color: #5f6164;
-  height: 500px;
+  height: 400px;
 }
 
   footer .contact-info {
@@ -147,7 +176,7 @@ footer {
   }
 
   footer h3 {
-    padding: 0 20px 0 30px;
+    padding: 0 20px 0 60px;
   }
 
 .contact-info {
@@ -157,6 +186,7 @@ footer {
 .mapouter {
   text-align: right;
   height: 400px;
+  float: left;
 }
 
 .gmap_canvas {
@@ -173,15 +203,26 @@ footer {
   width: 1060px;
 }
 
+.home-tabs {
+  margin: 20px 0 20px 0;
+}
+
+.office-hours {
+  width: 300px;
+  margin: 0 auto;
+  background-color: #ffecc6;
+}
+
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
   text-align: center;
+  padding: 10px;
 }
 
 /***** Media Restrictions *****/
 @media(max-width:1225px) {
-  .navbar-nav {
+  .navbar-nav, .search-container {
     display: none;
   }
 }
