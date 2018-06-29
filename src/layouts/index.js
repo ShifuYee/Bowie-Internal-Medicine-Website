@@ -21,8 +21,8 @@ const Layout = ({ children }) => (
       <link rel='shortcut icon' href={favicon} sizes='16x16' />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
     </Helmet>
-    <div>
-      <NavBar />
+    <NavBar />
+    <div className="main-body">
       <div className="main-wrapper">
         {children()}
       </div>

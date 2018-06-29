@@ -630,6 +630,16 @@ pre tt:after {
   overflow-x: hidden;
 }
 
+.main-body {
+  margin-top: 100px;
+}
+
+.main-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 .navbar {
   background-color: #3b5998;
   overflow: hidden;
