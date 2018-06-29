@@ -35,6 +35,7 @@ body {
 }
 
   .icon-bar a {
+    border-radius: 0 5px 5px 0;
     display: block;
     text-align: center;
     padding: 16px;
@@ -219,6 +220,104 @@ table, th, td {
   text-align: center;
   padding: 10px;
 }
+
+/***** Popup (../pages/components/popup.js) *****/
+.heading {
+  font-weight: bold;
+  font-style: italic;
+  border-bottom: 2px solid #ddd;
+  margin-bottom: 20px;
+  font-size: 15px;
+  padding-bottom: 3px;
+}
+
+.popup-nav {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  opacity: 1;
+  background-color: #f2f2f2;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  max-width: 500px;
+  padding: 20px 12px 10px 20px;
+  border: 1px solid black;
+  font: 13px Arial, Helvetica, sans-serif;
+}
+
+  .popup-nav label {
+    display: block;
+    margin: 0px 0px 15px 0px;
+  }
+
+  .popup-nav label > span {
+    width: 100px;
+    font-weight: bold;
+    float: left;
+    padding-top: 8px;
+    padding-right: 5px;
+  }
+
+  .popup-nav span.required {
+    color:red;
+  }
+
+  .popup-nav input.input-field, 
+  .popup-nav .select-field, 
+  .popup-nav .tel-number-field {
+    width: 48%; 
+  }
+
+  .popup-nav input.input-field, 
+  .popup-nav .tel-number-field, 
+  .popup-nav .textarea-field, 
+  .popup-nav .select-field {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #C2C2C2;
+    box-shadow: 1px 1px 4px #EBEBEB;
+    -moz-box-shadow: 1px 1px 4px #EBEBEB;
+    -webkit-box-shadow: 1px 1px 4px #EBEBEB;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    padding: 7px;
+    outline: none;
+  }
+
+  .popup-nav .input-field:focus, 
+  .popup-nav .tel-number-field:focus, 
+  .popup-nav .textarea-field:focus,  
+  .popup-nav .select-field:focus {
+    border: 1px solid #0C0;
+  }
+
+  .popup-nav .textarea-field{
+    height:100px;
+    width: 55%;
+  }
+
+  .popup-nav input[type=submit],
+  .popup-nav input[type=button]{
+    border: none;
+    padding: 8px 15px 8px 15px;
+    background-color: #FF8500;
+    color: #fff;
+    box-shadow: 1px 1px 4px #DADADA;
+    -moz-box-shadow: 1px 1px 4px #DADADA;
+    -webkit-box-shadow: 1px 1px 4px #DADADA;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+  }
+
+  .popup-nav input[type=submit]:hover,
+  .popup-nav input[type=button]:hover{
+    background-color: #EA7B00;
+    color: #fff;
+  }
 
 /***** Media Restrictions *****/
 @media(max-width:1225px) {
