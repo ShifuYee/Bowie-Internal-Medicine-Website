@@ -1,6 +1,8 @@
 // React + Gatsby
 import React from 'react'
 import Link from 'gatsby-link'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSearch } from '@fortawesome/free-solid-svg-icons'
 
 // Images
 import logo from '../../images/BowieM_logo.png'
@@ -64,6 +66,14 @@ class NavBar extends React.Component {
               <Link to="/about/">Contact Us</Link>
             </li>
           </ul>
+          <div className="search-container">
+            <form action="#">
+              <input type="text" placeholder="Search..." name="search" />
+              <button type="submit">
+                <FontAwesomeIcon icon={faSearch} />
+              </button>
+            </form>
+          </div>
         </nav>
 
         <div id="side-menu" className="side-nav">
