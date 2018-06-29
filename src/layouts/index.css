@@ -203,6 +203,10 @@ footer {
   width: 1060px;
 }
 
+.home-tabs {
+  margin: 20px 0 20px 0;
+}
+
 .office-hours {
   width: 300px;
   margin: 0 auto;

@@ -23,7 +23,7 @@ const HomePage = () => (
         all general medical and many minor surgical and 
         gynecological problems.
       </p>
-      <Tabs>
+      <Tabs className="home-tabs">
         <TabList>
           <Tab>Primary Care</Tab>
           <Tab>Gastroenterology</Tab>
