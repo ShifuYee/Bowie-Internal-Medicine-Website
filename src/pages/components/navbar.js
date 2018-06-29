@@ -27,7 +27,7 @@ class NavBar extends React.Component {
 
   render () {
     return (
-      <div>
+      <div className="main-nav">
         <nav className="navbar">
           <span className="open-slide">
             <a href="#" onClick={this.openSlideMenu}>
