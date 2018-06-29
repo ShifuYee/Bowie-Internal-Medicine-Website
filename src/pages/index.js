@@ -38,33 +38,35 @@ const HomePage = () => (
         </TabPanel>
         <TabPanel>
           <table className="office-hours">
-            <tr>
-              <td>Monday</td>
-              <td>8:30 AM – 6:30 PM</td>
-            </tr>
-            <tr>
-              <td>Tuesday</td>
-              <td>8:30 AM – 5:00 PM</td>
-            </tr>
-            <tr>
-              <td>Wednesday</td>
-              <td>8:30 AM – 7:00 PM</td>
-            </tr>
-            <tr>
-              <td>Thursday</td>
-              <td>8:30 AM – 6:30 PM</td>
-            </tr>
-            <tr>
-              <td>Friday</td>
-              <td>8:30 AM – 2:45 PM</td>
-            </tr>
-            <tr>
-              <td colSpan="2">Closed on weekends</td>
-            </tr>
+            <tbody>
+              <tr>
+                <td>Monday</td>
+                <td>8:30 AM – 6:30 PM</td>
+              </tr>
+              <tr>
+                <td>Tuesday</td>
+                <td>8:30 AM – 5:00 PM</td>
+              </tr>
+              <tr>
+                <td>Wednesday</td>
+                <td>8:30 AM – 7:00 PM</td>
+              </tr>
+              <tr>
+                <td>Thursday</td>
+                <td>8:30 AM – 6:30 PM</td>
+              </tr>
+              <tr>
+                <td>Friday</td>
+                <td>8:30 AM – 2:45 PM</td>
+              </tr>
+              <tr>
+                <td colSpan="2">Closed on weekends</td>
+              </tr>
+            </tbody>
           </table>
         </TabPanel>
         <TabPanel>
-          <div itemprop="description">
+          <div itemProp="description">
             <p>
               This is a service, which is being offered as a convenience. 
               If you require a more immediate response to your prescription 

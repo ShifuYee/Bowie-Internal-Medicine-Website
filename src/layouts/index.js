@@ -17,7 +17,7 @@ import favicon from '../images/favicon.jpg'
 const Layout = ({ children }) => (
   <div id="main">
     <Helmet>
-      <title>Bowie Internal Medicine Website</title>
+      <title>Bowie Internal Medicine Associates</title>
       <link rel='shortcut icon' href={favicon} sizes='16x16' />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
     </Helmet>

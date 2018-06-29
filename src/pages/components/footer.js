@@ -13,16 +13,16 @@ const Footer = () => (
       </h3>
     </div>
     <div className="contact-info">
-      <div class="mapouter">
-        <div class="gmap_canvas">
+      <div className="mapouter">
+        <div className="gmap_canvas">
           <iframe width="400" 
             height="400" 
             id="gmap_canvas" 
             src="https://maps.google.com/maps?q=bowie%20medicine&t=&z=13&ie=UTF8&iwloc=&output=embed" 
-            frameborder="0" 
+            frameBorder="0" 
             scrolling="no" 
-            marginheight="0" 
-            marginwidth="0" 
+            marginHeight="0" 
+            marginWidth="0" 
           />
         </div>
       </div>
