@@ -10,6 +10,7 @@ import { faFacebook, faTwitter, faGoogle } from '@fortawesome/free-brands-svg-ic
 // Components
 import NavBar from '../pages/components/navbar'
 import Footer from '../pages/components/footer'
+import Popup from '../pages/components/popup'
 
 // Images
 import favicon from '../images/favicon.jpg'
@@ -37,6 +38,7 @@ const Layout = ({ children }) => (
           <FontAwesomeIcon icon={faGoogle} />
         </a>
       </div>
+      <Popup />
       <Footer />
     </div>
   </div>
