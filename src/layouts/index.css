@@ -1,13 +1,17 @@
 /***** Generic classes *****/
 * {
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   font-family: Arial, serif;
-  background-color: #f4f4f4;
   margin: 0;
+}
+
+h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /***** Main Layout (./index.js) *****/
@@ -166,35 +170,38 @@ body {
 
 /***** Footer (../pages/components/footer.js) *****/
 footer {
-  display: block;
-  padding: 50px 0;
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 40px;
   background-color: #5f6164;
-  height: 400px;
 }
 
-  footer .contact-info {
-    float: left;
+  footer iframe {
+    border: 0;
   }
 
-  footer h3 {
-    padding: 0 20px 0 60px;
-  }
+.footer-container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footer-row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col-md-6 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
 
 .contact-info {
-  width: 50%;
-}
-
-.mapouter {
-  text-align: right;
-  height: 400px;
-  float: left;
-}
-
-.gmap_canvas {
-  overflow: hidden;
-  background: none!important;
-  height: 400px;
-  width: 100%;
+  max-width: 400px;
+  margin: 50px auto 0;
 }
 
 /***** HomePage (../index.js) *****/
@@ -319,14 +326,103 @@ table, th, td {
   }
 
 /***** Media Restrictions *****/
-@media(max-width:1225px) {
-  .navbar-nav, .search-container {
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: red;
+  }
+
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .popup-nav {
+    padding: 10px;
+  }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: green;
+  }
+
+  .footer-container {
+    flex-direction: column;
+  }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: blue;
+  }
+
+  .footer-container {
+    width: 750px;
+  }
+
+  iframe {
+    display: block;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .icon-bar {
     display: none;
   }
 }
 
-@media(min-width:1225px) {
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body {
+    background-color: orange;
+  }
+
+  .footer-container {
+    width: 970px;
+  }
+
+  .col-md-6 {
+    float: left;
+    width: 50%;
+  }
+
+  .contact-info {
+    margin: 20px auto 0;
+  }
+  
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body {
+    background-color: #f4f4f4;
+  }
+
+  .footer-container {
+    width: 1170px;
+  }
+
+  .contact-info {
+    margin: 20px auto 0;
+  }
+
   .open-slide {
+    display: none;
+  }
+  
+}
+
+@media(max-width:1200px) {
+  .navbar-nav, .popup-nav {
+    display: none;
+  }
+}
+
+@media(max-width:1450px) {
+  .search-container {
     display: none;
   }
 }

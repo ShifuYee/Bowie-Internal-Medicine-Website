@@ -5,24 +5,22 @@ import { faFax, faPhone, faLocationArrow } from '@fortawesome/free-solid-svg-ico
 
 const Footer = () => (
   <footer>
-    <div className="contact-info">
-      <h3><FontAwesomeIcon icon={faPhone} /> Phone: (301) 262-8188</h3>
-      <h3><FontAwesomeIcon icon={faFax} /> Fax: (301) 464-8233</h3>
-      <h3>
-        <FontAwesomeIcon icon={faLocationArrow} /> 14999 Health Center Drive, Suite 201 Bowie, Maryland 20716
-      </h3>
-    </div>
-    <div className="contact-info">
-      <div className="mapouter">
-        <div className="gmap_canvas">
-          <iframe width="400" 
-            height="400" 
-            id="gmap_canvas" 
+    <div className="footer-container">
+      <div className="footer-row">
+        <div className="col-md-6">
+          <div className="contact-info">
+            <h3><FontAwesomeIcon icon={faPhone} /> Phone: (301) 262-8188</h3>
+            <h3><FontAwesomeIcon icon={faFax} /> Fax: (301) 464-8233</h3>
+            <h3><FontAwesomeIcon icon={faLocationArrow} /> 14999 Health Center Drive, Suite 201 Bowie, Maryland 20716</h3>
+          </div>
+        </div>
+        <div className="col-md-6">
+          <iframe width="80%"
+            height="400"
             src="https://maps.google.com/maps?q=bowie%20medicine&t=&z=13&ie=UTF8&iwloc=&output=embed" 
             frameBorder="0" 
             scrolling="no" 
-            marginHeight="0" 
-            marginWidth="0" 
+            allowFullScreen
           />
         </div>
       </div>
