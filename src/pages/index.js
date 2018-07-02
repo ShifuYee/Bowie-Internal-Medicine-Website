@@ -78,6 +78,6 @@ const HomePage = () => (
       </Tabs>
     </div>
   </div>
-);
+)
 
 export default HomePage;
