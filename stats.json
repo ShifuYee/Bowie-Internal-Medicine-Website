@@ -1,0 +1,76 @@
+{
+  "assetsByChunkName": {
+    "path---components-footer": [
+      "path---components-footer-a0e39f21c11f6a62c5ab.js",
+      "path---components-footer-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---components-popup": [
+      "path---components-popup-a0e39f21c11f6a62c5ab.js",
+      "path---components-popup-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-0f553c2adf2118b3c70c.js",
+      "component---src-pages-index-js-0f553c2adf2118b3c70c.js.map"
+    ],
+    "component---src-pages-components-footer-js": [
+      "component---src-pages-components-footer-js-e1294ed20d2e8d988b43.js",
+      "component---src-pages-components-footer-js-e1294ed20d2e8d988b43.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-1d01ff169d9bab00dbed.js",
+      "component---src-layouts-index-js-1d01ff169d9bab00dbed.js.map"
+    ],
+    "component---src-pages-components-popup-js": [
+      "component---src-pages-components-popup-js-d9de7202f9e60008f334.js",
+      "component---src-pages-components-popup-js-d9de7202f9e60008f334.js.map"
+    ],
+    "path---index": [
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-bd80fdf6042ab5687e4f.js",
+      "component---src-pages-404-js-bd80fdf6042ab5687e4f.js.map"
+    ],
+    "commons": [
+      "commons-4e98a79f4e3f58fbd9e0.js",
+      "build-js-styles.css",
+      "commons-4e98a79f4e3f58fbd9e0.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "app": [
+      "app-b9c26af83f36b5726cb2.js",
+      "build-js-styles.css",
+      "app-b9c26af83f36b5726cb2.js.map",
+      "build-js-styles.css.map"
+    ],
+    "component---src-pages-components-navbar-js": [
+      "component---src-pages-components-navbar-js-e44850ae3497d23af434.js",
+      "component---src-pages-components-navbar-js-e44850ae3497d23af434.js.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-about-js": [
+      "component---src-pages-about-js-eb888064a840767e505f.js",
+      "component---src-pages-about-js-eb888064a840767e505f.js.map"
+    ],
+    "path---about": [
+      "path---about-a0e39f21c11f6a62c5ab.js",
+      "path---about-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---components-navbar": [
+      "path---components-navbar-a0e39f21c11f6a62c5ab.js",
+      "path---components-navbar-a0e39f21c11f6a62c5ab.js.map"
+    ]
+  }
+}
