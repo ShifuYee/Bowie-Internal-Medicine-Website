@@ -6,6 +6,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faTwitter, faGoogle } from '@fortawesome/free-brands-svg-icons'
+import { faQuestionCircle } from '@fortawesome/free-regular-svg-icons'
 
 // Components
 import NavBar from '../pages/components/navbar'
@@ -36,6 +37,11 @@ const Layout = ({ children }) => (
         </a>
         <a href="#" className="google">
           <FontAwesomeIcon icon={faGoogle} />
+        </a>
+      </div>
+      <div className="popup-button">
+        <a href="#" className="question-circle">
+          <FontAwesomeIcon icon={faQuestionCircle} />
         </a>
       </div>
       <Popup />
