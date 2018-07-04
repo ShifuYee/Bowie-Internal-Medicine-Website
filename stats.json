@@ -16,13 +16,33 @@
       "component---src-pages-components-footer-js-e1294ed20d2e8d988b43.js",
       "component---src-pages-components-footer-js-e1294ed20d2e8d988b43.js.map"
     ],
+    "component---src-pages-providers-and-staff-js": [
+      "component---src-pages-providers-and-staff-js-a375f3c8a055f59b807e.js",
+      "component---src-pages-providers-and-staff-js-a375f3c8a055f59b807e.js.map"
+    ],
+    "component---src-pages-contact-us-js": [
+      "component---src-pages-contact-us-js-afaab8c1319861b0dc31.js",
+      "component---src-pages-contact-us-js-afaab8c1319861b0dc31.js.map"
+    ],
+    "path---portal": [
+      "path---portal-a0e39f21c11f6a62c5ab.js",
+      "path---portal-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
+    "path---providers-and-staff": [
+      "path---providers-and-staff-a0e39f21c11f6a62c5ab.js",
+      "path---providers-and-staff-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-resources-js": [
+      "component---src-pages-resources-js-537fbe96aee9de3bde55.js",
+      "component---src-pages-resources-js-537fbe96aee9de3bde55.js.map"
+    ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-175806c7ebe42648c3e8.js",
-      "component---src-layouts-index-js-175806c7ebe42648c3e8.js.map"
+      "component---src-layouts-index-js-e498d4da535def27442a.js",
+      "component---src-layouts-index-js-e498d4da535def27442a.js.map"
     ],
     "component---src-pages-components-popup-js": [
       "component---src-pages-components-popup-js-d9de7202f9e60008f334.js",
@@ -37,36 +57,64 @@
       "component---src-pages-404-js-bd80fdf6042ab5687e4f.js.map"
     ],
     "commons": [
-      "commons-4e98a79f4e3f58fbd9e0.js",
+      "commons-922bd637923bf00f2c28.js",
       "build-js-styles.css",
-      "commons-4e98a79f4e3f58fbd9e0.js.map",
+      "commons-922bd637923bf00f2c28.js.map",
       "build-js-styles.css.map"
+    ],
+    "path---resources": [
+      "path---resources-a0e39f21c11f6a62c5ab.js",
+      "path---resources-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "component---src-pages-patients-js": [
+      "component---src-pages-patients-js-01cb6e30468f2c67706a.js",
+      "component---src-pages-patients-js-01cb6e30468f2c67706a.js.map"
+    ],
     "app": [
-      "app-b9c26af83f36b5726cb2.js",
+      "app-3e435f4a2bbae1701839.js",
       "build-js-styles.css",
-      "app-b9c26af83f36b5726cb2.js.map",
+      "app-3e435f4a2bbae1701839.js.map",
       "build-js-styles.css.map"
     ],
+    "path---patients": [
+      "path---patients-a0e39f21c11f6a62c5ab.js",
+      "path---patients-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---pay": [
+      "path---pay-a0e39f21c11f6a62c5ab.js",
+      "path---pay-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "component---src-pages-components-navbar-js": [
-      "component---src-pages-components-navbar-js-38e44b32e47b0052b70a.js",
-      "component---src-pages-components-navbar-js-38e44b32e47b0052b70a.js.map"
+      "component---src-pages-components-navbar-js-a1b4f1bf9a3e5f942181.js",
+      "component---src-pages-components-navbar-js-a1b4f1bf9a3e5f942181.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
       "path---404-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "component---src-pages-pay-js": [
+      "component---src-pages-pay-js-fa2abb98e7e3fcd47ffe.js",
+      "component---src-pages-pay-js-fa2abb98e7e3fcd47ffe.js.map"
+    ],
+    "component---src-pages-portal-js": [
+      "component---src-pages-portal-js-e26cf00f29b18fd457b1.js",
+      "component---src-pages-portal-js-e26cf00f29b18fd457b1.js.map"
+    ],
     "component---src-pages-about-js": [
-      "component---src-pages-about-js-eb888064a840767e505f.js",
-      "component---src-pages-about-js-eb888064a840767e505f.js.map"
+      "component---src-pages-about-js-74795950fcf27dca5df2.js",
+      "component---src-pages-about-js-74795950fcf27dca5df2.js.map"
     ],
     "path---about": [
       "path---about-a0e39f21c11f6a62c5ab.js",
       "path---about-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---contact-us": [
+      "path---contact-us-a0e39f21c11f6a62c5ab.js",
+      "path---contact-us-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---components-navbar": [
       "path---components-navbar-a0e39f21c11f6a62c5ab.js",

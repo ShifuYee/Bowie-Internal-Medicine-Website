@@ -1,0 +1,2 @@
+webpackJsonp([0xd2997a76b202],{217:function(e,t,a){"use strict";function l(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var n=a(1),u=l(n),r=a(17),o=l(r),c=function(){return u.default.createElement("div",{className:"container"},u.default.createElement("h1",null,"For Patients"),u.default.createElement("br",null),u.default.createElement(o.default,{to:"/"},"Go back to the homepage"))};t.default=c,e.exports=t.default}});
+//# sourceMappingURL=component---src-pages-patients-js-01cb6e30468f2c67706a.js.map
