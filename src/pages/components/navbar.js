@@ -6,6 +6,7 @@ import { faSearch } from '@fortawesome/free-solid-svg-icons'
 
 // Images
 import logo from '../../images/BowieM_logo.png'
+import smallLogo from '../../images/logo_small.png'
 
 class NavBar extends React.Component {
 
@@ -31,41 +32,31 @@ class NavBar extends React.Component {
     return (
       <div className="main-nav">
         <nav className="navbar">
-          <span className="open-slide">
-            <a href="#" onClick={this.openSlideMenu}>
-              <svg width="30" height="30">
-                <path d="M0,5 30,5" stroke="#000" strokeWidth="5" />
-                <path d="M0,14 30,14" stroke="#000" strokeWidth="5" />
-                <path d="M0,23 30,23" stroke="#000" strokeWidth="5" />
-              </svg>
-            </a>
-          </span>
-          <Link to="/">
-            <img alt="Bowie Internal Medicine home" src={logo} />
-          </Link>
-          <ul className="navbar-nav">
-            <li>
-              <Link to="/about/">About Us</Link>
-            </li>
-            <li>
-              <Link to="/about/">For Patients</Link>
-            </li>
-            <li>
-              <Link to="/about/">Providers & Staff</Link>
-            </li>
-            <li>
-              <Link to="/about/">Resources</Link>
-            </li>
-            <li>
-              <Link to="/about/">Pay</Link>
-            </li>
-            <li>
-              <Link to="/about/">Portal</Link>
-            </li>
-            <li>
-              <Link to="/about/">Contact Us</Link>
-            </li>
-          </ul>
+          <div className="nav-drawer">
+            <span className="open-slide">
+              <Link href="#" onClick={this.openSlideMenu}>
+                <svg width="30" height="30">
+                  <path d="M0,5 30,5" stroke="#000" strokeWidth="5" />
+                  <path d="M0,14 30,14" stroke="#000" strokeWidth="5" />
+                  <path d="M0,23 30,23" stroke="#000" strokeWidth="5" />
+                </svg>
+              </Link>
+            </span>
+          </div>
+          <div className="logo">
+            <Link to="/">
+              <img alt="Bowie Internal Medicine home" src={logo} className="img-responsive" />
+            </Link>
+          </div>
+          <div className="navbar-nav">
+            <Link to="/about/">About Us</Link>
+            <Link to="/about/">For Patients</Link>
+            <Link to="/about/">Providers & Staff</Link>
+            <Link to="/about/">Resources</Link>
+            <Link to="/about/">Pay</Link>
+            <Link to="/about/">Portal</Link>
+            <Link to="/about/">Contact Us</Link>
+          </div>
           <div className="search-container">
             <form action="#">
               <input type="text" placeholder="Search..." name="search" />
