@@ -228,15 +228,12 @@ footer {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  height: 700px;
 }
 
 .office-hours {
   margin: auto;
   background-color: #ffecc6;
-}
-
-.tab-panel {
-  
 }
 
 table, th, td {

@@ -49,12 +49,12 @@ class NavBar extends React.Component {
           </div>
           <div className="navbar-nav">
             <Link to="/about/">About Us</Link>
-            <Link to="/about/">For Patients</Link>
-            <Link to="/about/">Providers & Staff</Link>
-            <Link to="/about/">Resources</Link>
-            <Link to="/about/">Pay</Link>
-            <Link to="/about/">Portal</Link>
-            <Link to="/about/">Contact Us</Link>
+            <Link to="/patients/">For Patients</Link>
+            <Link to="/providersandstaff/">Providers & Staff</Link>
+            <Link to="/resources/">Resources</Link>
+            <Link to="/pay/">Pay</Link>
+            <Link to="/portal/">Portal</Link>
+            <Link to="/contactus/">Contact Us</Link>
           </div>
           <div className="search-container">
             <form action="#">
@@ -72,16 +72,16 @@ class NavBar extends React.Component {
           </a>
           <Link to="/">Home</Link>
           <Link to="/about/">About Us</Link>
-          <Link to="/about/">For Patients</Link>
-          <Link to="/about/">Providers & Staff</Link>
-          <Link to="/about/">Resources</Link>
-          <Link to="/about/">Pay</Link>
-          <Link to="/about/">Portal</Link>
-          <Link to="/about/">Contact Us</Link>
+          <Link to="/patients/">For Patients</Link>
+          <Link to="/providersandstaff/">Providers & Staff</Link>
+          <Link to="/resources/">Resources</Link>
+          <Link to="/pay/">Pay</Link>
+          <Link to="/portal/">Portal</Link>
+          <Link to="/contactus/">Contact Us</Link>
         </div>
       </div>
     )
   }
 }
 
-export default NavBar;
+export default NavBar
