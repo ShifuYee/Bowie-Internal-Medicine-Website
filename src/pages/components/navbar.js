@@ -6,7 +6,6 @@ import { faSearch } from '@fortawesome/free-solid-svg-icons'
 
 // Images
 import logo from '../../images/BowieM_logo.png'
-import smallLogo from '../../images/logo_small.png'
 
 class NavBar extends React.Component {
 

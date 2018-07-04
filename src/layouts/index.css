@@ -36,6 +36,7 @@ h3 {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+  z-index: 1;
 }
 
   .icon-bar a {
@@ -216,17 +217,26 @@ footer {
 .home-body {
   position: relative;
   margin: 0 auto;
-  width: 1060px;
-}
+} 
 
 .home-tabs {
-  margin: 20px 0 20px 0;
+  margin-top: 10px;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .office-hours {
-  width: 300px;
-  margin: 0 auto;
+  margin: auto;
   background-color: #ffecc6;
+}
+
+.tab-panel {
+  
 }
 
 table, th, td {
@@ -258,6 +268,7 @@ table, th, td {
   padding: 20px 12px 10px 20px;
   border: 1px solid black;
   font: 13px Arial, Helvetica, sans-serif;
+  z-index: 1;
 }
 
   .popup-nav label {
@@ -344,6 +355,10 @@ table, th, td {
     margin-left: 15px;
   }
 
+  .icon-bar {
+    top: 25%;
+  }
+
   .popup-nav {
     padding: 10px;
   }
@@ -360,6 +375,10 @@ table, th, td {
 @media only screen and (min-width: 768px) {
   body {
     background-color: blue;
+  }
+
+  .container {
+    width: 750px;
   }
 
   .footer-container {
@@ -389,6 +408,10 @@ table, th, td {
     width: 970px;
   }
 
+  .container {
+    width: 970px;
+  }
+
   .col-md-6 {
     float: left;
     width: 50%;
@@ -403,6 +426,10 @@ table, th, td {
 @media only screen and (min-width: 1200px) {
   body {
     background-color: #f4f4f4;
+  }
+
+  .container {
+    width: 1170px;
   }
 
   .footer-container {
