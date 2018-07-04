@@ -69,10 +69,11 @@ h3 {
   position: fixed;
   right: 0;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  z-index: 1;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  z-index: 2;
 }
 
   .popup-button a {
@@ -89,9 +90,26 @@ h3 {
     background-color: #000;
   }
 
-  .question-circle {
-    background-color: rgb(255, 115, 0);
-  }
+.question-circle {
+  background-color: rgb(255, 115, 0);
+}
+
+#popup.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s;
+  animation: fadein 0.5s;
+}
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+  from {top: 0; opacity: 0;} 
+  to {top: 100px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {top: 0; opacity: 0;}
+  to {top: 100px; opacity: 1;}
+}
 
 /***** Navbar (../pages/components/navbar.js) *****/
 .main-nav {
@@ -281,19 +299,18 @@ table, th, td {
   padding-bottom: 3px;
 }
 
-.popup-nav {
+#popup {
+  visibility: hidden;
+  min-width: 320px;
+  margin-left: -160px;
+  background-color: #333;
+  color: #f2f2f2;
+  border-radius: 2px;
+  padding: 16px;
   position: fixed;
-  right: 0;
-  top: 80%;
-  opacity: 1;
-  background-color: #f2f2f2;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  padding: 20px 12px 10px 20px;
-  border: 1px solid black;
-  font: 13px Arial, Helvetica, sans-serif;
   z-index: 1;
+  left: 50%;
+  top: 100px;
 }
 
   .popup-nav label {
@@ -316,7 +333,7 @@ table, th, td {
   .popup-nav input.input-field, 
   .popup-nav .select-field, 
   .popup-nav .tel-number-field {
-    width: 48%; 
+    width: 50%; 
   }
 
   .popup-nav input.input-field, 
@@ -345,7 +362,7 @@ table, th, td {
   }
 
   .popup-nav .textarea-field{
-    height:100px;
+    height: 100px;
     width: 55%;
   }
 
@@ -471,8 +488,14 @@ table, th, td {
   
 }
 
-@media(max-width:1200px) {
-  .navbar-nav, .popup-nav {
+@media(min-height: 1200px) {
+  .container {
+    height: 1400px;
+  }
+}
+
+@media(max-width: 1200px) {
+  .navbar-nav {
     display: none;
   }
 
@@ -482,7 +505,7 @@ table, th, td {
   }
 }
 
-@media(max-width:1450px) {
+@media(max-width: 1450px) {
   .search-container {
     display: none;
   }
