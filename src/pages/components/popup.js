@@ -46,4 +46,4 @@ const Popup = () => (
   </div>
 )
 
-export default Popup;
+export default Popup
