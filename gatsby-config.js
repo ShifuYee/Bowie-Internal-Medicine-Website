@@ -11,7 +11,7 @@ module.exports = {
         short_name: "BowieIntMed",
         start_url: "/",
         display: "minimal-ui",
-        icon: "src/images/favicon.png"
+        icon: "src/images/favicon.ico"
       }
     },
     'gatsby-plugin-offline'    
