@@ -8,11 +8,11 @@ import 'react-tabs/style/react-tabs.css';
 import homeimage from '../images/home-page-image.jpg'
 
 const HomePage = () => (
-  <div>
+  <div className="container">
     <div className="home-body">
       <h1>Latest News</h1>
     </div>
-    <img alt="Home Page Image" src={homeimage} />
+    <img alt="Home Page Image" src={homeimage} className="img-responsive" />
     <div className="home-body">
       <h1>Welcome to Bowie Internal Medicine</h1>
       <p>
