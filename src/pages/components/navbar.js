@@ -33,13 +33,13 @@ class NavBar extends React.Component {
         <nav className="navbar">
           <div className="nav-drawer">
             <span className="open-slide">
-              <Link href="#" onClick={this.openSlideMenu}>
+              <a href="#" onClick={this.openSlideMenu}>
                 <svg width="30" height="30">
                   <path d="M0,5 30,5" stroke="#000" strokeWidth="5" />
                   <path d="M0,14 30,14" stroke="#000" strokeWidth="5" />
                   <path d="M0,23 30,23" stroke="#000" strokeWidth="5" />
                 </svg>
-              </Link>
+              </a>
             </span>
           </div>
           <div className="logo">
