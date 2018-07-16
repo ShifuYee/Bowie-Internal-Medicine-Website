@@ -1,12 +1,12 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-const Patients = () => (
+const Services = () => (
   <div className="container">
-    <h1>For Patients</h1>
+    <h1>Services</h1>
     <br />
     <Link to="/">Go back to the homepage</Link>
   </div>
 )
 
-export default Patients
+export default Services

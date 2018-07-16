@@ -49,7 +49,7 @@ class NavBar extends React.Component {
           </div>
           <div className="navbar-nav">
             <Link to="/about/">About Us</Link>
-            <Link to="/patients/">For Patients</Link>
+            <Link to="/services/">Services</Link>
             <Link to="/providersandstaff/">Providers & Staff</Link>
             <Link to="/resources/">Resources</Link>
             <Link to="/pay/">Pay</Link>

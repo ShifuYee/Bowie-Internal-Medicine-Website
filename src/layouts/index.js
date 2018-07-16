@@ -34,6 +34,7 @@ class Layout extends React.Component {
         <Helmet>
           <title>Bowie Internal Medicine Associates</title>
           <link rel='shortcut icon' href={favicon} sizes='16x16' />
+          <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600" rel="stylesheet" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta name="description" content="Welcome to Bowie Internal Medicine Associates Website." />
         </Helmet>
