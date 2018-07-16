@@ -2,7 +2,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSearch } from '@fortawesome/free-solid-svg-icons'
+import { faSearch, faCaretDown } from '@fortawesome/free-solid-svg-icons'
 
 // Images
 import logo from '../../images/BowieM_logo.png'
@@ -49,7 +49,17 @@ class NavBar extends React.Component {
           </div>
           <div className="navbar-nav">
             <Link to="/about/">About Us</Link>
-            <Link to="/services/">Services</Link>
+            <div className="dropdown">
+              <button className="dropbtn">
+                Services <FontAwesomeIcon icon={faCaretDown} />
+              </button>
+              <div className="dropdown-content">
+                <Link to="/services/upperendoscopy/">Upper Endoscopy</Link>
+                <Link to="/services/capsuleendoscopy/">Capsule Endoscopy</Link>
+                <Link to="/services/colonoscopy/">Colonoscopy</Link>
+                <Link to="/services/hemorrhoidbanding/">Hemorrhoid Banding</Link>
+              </div>
+            </div>
             <Link to="/providersandstaff/">Providers & Staff</Link>
             <Link to="/resources/">Resources</Link>
             <Link to="/pay/">Pay</Link>
