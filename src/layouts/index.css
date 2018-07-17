@@ -127,10 +127,11 @@ h3 {
   background-color: #3b5998;
   border: none;
   overflow: hidden;
-  justify-content: space-between;
 }
 
   .navbar .search-container button {
+    flex: 1;
+    text-align: right;
     margin-right: 10px;
     padding: 6px 10px;
     background-color: #ddd;
@@ -165,12 +166,12 @@ h3 {
 }
 
 .navbar-nav {
+  flex: 1;
   display: flex;
   overflow: hidden;
 }
 
 .navbar-nav > a {
-  float: left;
   display: block;
   color: black;
   text-align: center;
