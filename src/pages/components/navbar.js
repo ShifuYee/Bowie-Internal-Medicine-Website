@@ -7,6 +7,9 @@ import { faSearch, faCaretDown } from '@fortawesome/free-solid-svg-icons'
 // Images
 import logo from '../../images/BowieM_logo.png'
 
+// Components
+import Slider from '../components/slider'
+
 class NavBar extends React.Component {
 
   constructor(props){
@@ -31,17 +34,7 @@ class NavBar extends React.Component {
     return (
       <div className="main-nav">
         <nav className="navbar">
-          <div className="nav-drawer">
-            <span className="open-slide">
-              <a href="#" onClick={this.openSlideMenu}>
-                <svg width="30" height="30">
-                  <path d="M0,5 30,5" stroke="#000" strokeWidth="5" />
-                  <path d="M0,14 30,14" stroke="#000" strokeWidth="5" />
-                  <path d="M0,23 30,23" stroke="#000" strokeWidth="5" />
-                </svg>
-              </a>
-            </span>
-          </div>
+          <Slider openSlideMenu={this.openSlideMenu} />
           <div className="logo">
             <Link to="/">
               <img alt="Bowie Internal Medicine home" src={logo} className="img-responsive" />
@@ -75,14 +68,23 @@ class NavBar extends React.Component {
             </form>
           </div>
         </nav>
-
         <div id="side-menu" className="side-nav">
           <a href="#" className="btn-close" onClick={this.closeSlideMenu}>
             &times;
           </a>
           <Link to="/">Home</Link>
           <Link to="/about/">About Us</Link>
-          <Link to="/patients/">For Patients</Link>
+          <div className="dropdown">
+            <button className="dropbtn">
+              Services <FontAwesomeIcon icon={faCaretDown} />
+            </button>
+            <div className="dropdown-content">
+              <Link to="/services/upperendoscopy/">Upper Endoscopy</Link>
+              <Link to="/services/capsuleendoscopy/">Capsule Endoscopy</Link>
+              <Link to="/services/colonoscopy/">Colonoscopy</Link>
+              <Link to="/services/hemorrhoidbanding/">Hemorrhoid Banding</Link>
+            </div>
+          </div>
           <Link to="/providersandstaff/">Providers & Staff</Link>
           <Link to="/resources/">Resources</Link>
           <Link to="/pay/">Pay</Link>
