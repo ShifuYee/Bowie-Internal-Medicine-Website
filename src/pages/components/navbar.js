@@ -74,7 +74,7 @@ class NavBar extends React.Component {
           </a>
           <Link to="/">Home</Link>
           <Link to="/about/">About Us</Link>
-          <div className="dropdown">
+          <div className="dropdown-btn">
             <button className="dropbtn">
               Services <FontAwesomeIcon icon={faCaretDown} />
             </button>
