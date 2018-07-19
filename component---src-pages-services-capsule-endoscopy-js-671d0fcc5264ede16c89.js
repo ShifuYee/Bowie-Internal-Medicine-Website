@@ -1,0 +1,2 @@
+webpackJsonp([9970183474905],{225:function(e,t,a){"use strict";function l(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var u=a(1),n=l(u),o=a(12),c=l(o),r=function(){return n.default.createElement("div",{className:"container"},n.default.createElement("h1",null,"Capsule Endoscopy"),n.default.createElement("br",null),n.default.createElement(c.default,{to:"/"},"Go back to the homepage"))};t.default=r,e.exports=t.default}});
+//# sourceMappingURL=component---src-pages-services-capsule-endoscopy-js-671d0fcc5264ede16c89.js.map

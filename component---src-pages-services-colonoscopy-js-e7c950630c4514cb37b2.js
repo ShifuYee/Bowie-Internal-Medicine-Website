@@ -1,0 +1,2 @@
+webpackJsonp([0xf1acecee684],{224:function(e,t,a){"use strict";function l(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var n=a(1),u=l(n),o=a(12),c=l(o),r=function(){return u.default.createElement("div",{className:"container"},u.default.createElement("h1",null,"Colonoscopy"),u.default.createElement("br",null),u.default.createElement(c.default,{to:"/"},"Go back to the homepage"))};t.default=r,e.exports=t.default}});
+//# sourceMappingURL=component---src-pages-services-colonoscopy-js-e7c950630c4514cb37b2.js.map

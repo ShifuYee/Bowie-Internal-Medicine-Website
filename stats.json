@@ -1,5 +1,17 @@
 {
   "assetsByChunkName": {
+    "path---services-capsule-endoscopy": [
+      "path---services-capsule-endoscopy-a0e39f21c11f6a62c5ab.js",
+      "path---services-capsule-endoscopy-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-services-capsule-endoscopy-js": [
+      "component---src-pages-services-capsule-endoscopy-js-671d0fcc5264ede16c89.js",
+      "component---src-pages-services-capsule-endoscopy-js-671d0fcc5264ede16c89.js.map"
+    ],
+    "component---src-pages-services-colonoscopy-js": [
+      "component---src-pages-services-colonoscopy-js-e7c950630c4514cb37b2.js",
+      "component---src-pages-services-colonoscopy-js-e7c950630c4514cb37b2.js.map"
+    ],
     "path---components-footer": [
       "path---components-footer-a0e39f21c11f6a62c5ab.js",
       "path---components-footer-a0e39f21c11f6a62c5ab.js.map"
@@ -24,6 +36,10 @@
       "component---src-pages-contact-us-js-afaab8c1319861b0dc31.js",
       "component---src-pages-contact-us-js-afaab8c1319861b0dc31.js.map"
     ],
+    "path---services-hemorrhoid-banding": [
+      "path---services-hemorrhoid-banding-a0e39f21c11f6a62c5ab.js",
+      "path---services-hemorrhoid-banding-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "path---portal": [
       "path---portal-a0e39f21c11f6a62c5ab.js",
       "path---portal-a0e39f21c11f6a62c5ab.js.map"
@@ -31,6 +47,10 @@
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
+    ],
+    "path---services-upper-endoscopy": [
+      "path---services-upper-endoscopy-a0e39f21c11f6a62c5ab.js",
+      "path---services-upper-endoscopy-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---providers-and-staff": [
       "path---providers-and-staff-a0e39f21c11f6a62c5ab.js",
@@ -40,13 +60,21 @@
       "component---src-pages-resources-js-537fbe96aee9de3bde55.js",
       "component---src-pages-resources-js-537fbe96aee9de3bde55.js.map"
     ],
+    "component---src-pages-components-slider-js": [
+      "component---src-pages-components-slider-js-3d023dbbd7b505465f64.js",
+      "component---src-pages-components-slider-js-3d023dbbd7b505465f64.js.map"
+    ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
+    "component---src-pages-services-upper-endoscopy-js": [
+      "component---src-pages-services-upper-endoscopy-js-9a6da4b180f3d1157899.js",
+      "component---src-pages-services-upper-endoscopy-js-9a6da4b180f3d1157899.js.map"
+    ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-65a91c9e823bb042e98a.js",
-      "component---src-layouts-index-js-65a91c9e823bb042e98a.js.map"
+      "component---src-layouts-index-js-9c8eb97cc7f64605d1e5.js",
+      "component---src-layouts-index-js-9c8eb97cc7f64605d1e5.js.map"
     ],
     "component---src-pages-components-popup-js": [
       "component---src-pages-components-popup-js-668e3f3d5173ca7152d5.js",
@@ -74,31 +102,31 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "component---src-pages-services-hemorrhoid-banding-js": [
+      "component---src-pages-services-hemorrhoid-banding-js-79cdba52a154418c598e.js",
+      "component---src-pages-services-hemorrhoid-banding-js-79cdba52a154418c598e.js.map"
+    ],
+    "path---components-slider": [
+      "path---components-slider-a0e39f21c11f6a62c5ab.js",
+      "path---components-slider-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "component---src-pages-patients-js": [
-      "component---src-pages-patients-js-01cb6e30468f2c67706a.js",
-      "component---src-pages-patients-js-01cb6e30468f2c67706a.js.map"
-    ],
     "app": [
-      "app-d67a53fdfb957b90c861.js",
+      "app-3585351f64037fa219cb.js",
       "build-js-styles.css",
-      "app-d67a53fdfb957b90c861.js.map",
+      "app-3585351f64037fa219cb.js.map",
       "build-js-styles.css.map"
-    ],
-    "path---patients": [
-      "path---patients-a0e39f21c11f6a62c5ab.js",
-      "path---patients-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---pay": [
       "path---pay-a0e39f21c11f6a62c5ab.js",
       "path---pay-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-components-navbar-js": [
-      "component---src-pages-components-navbar-js-e8841c13a7db4092527f.js",
-      "component---src-pages-components-navbar-js-e8841c13a7db4092527f.js.map"
+      "component---src-pages-components-navbar-js-5ee491f08ba9e84d02a2.js",
+      "component---src-pages-components-navbar-js-5ee491f08ba9e84d02a2.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
@@ -108,6 +136,10 @@
       "component---src-pages-pay-js-fa2abb98e7e3fcd47ffe.js",
       "component---src-pages-pay-js-fa2abb98e7e3fcd47ffe.js.map"
     ],
+    "path---services": [
+      "path---services-a0e39f21c11f6a62c5ab.js",
+      "path---services-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "component---src-pages-portal-js": [
       "component---src-pages-portal-js-e26cf00f29b18fd457b1.js",
       "component---src-pages-portal-js-e26cf00f29b18fd457b1.js.map"
@@ -115,6 +147,14 @@
     "component---src-pages-about-js": [
       "component---src-pages-about-js-74795950fcf27dca5df2.js",
       "component---src-pages-about-js-74795950fcf27dca5df2.js.map"
+    ],
+    "path---services-colonoscopy": [
+      "path---services-colonoscopy-a0e39f21c11f6a62c5ab.js",
+      "path---services-colonoscopy-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-services-js": [
+      "component---src-pages-services-js-c3e6ba3f1ce6ee689746.js",
+      "component---src-pages-services-js-c3e6ba3f1ce6ee689746.js.map"
     ],
     "path---about": [
       "path---about-a0e39f21c11f6a62c5ab.js",

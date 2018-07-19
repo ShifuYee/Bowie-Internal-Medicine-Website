@@ -1,0 +1,2 @@
+webpackJsonp([0xab5224610f66],{226:function(e,t,a){"use strict";function l(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var n=a(1),u=l(n),r=a(12),o=l(r),d=function(){return u.default.createElement("div",{className:"container"},u.default.createElement("h1",null,"Hemorrhoid Banding"),u.default.createElement("br",null),u.default.createElement(o.default,{to:"/"},"Go back to the homepage"))};t.default=d,e.exports=t.default}});
+//# sourceMappingURL=component---src-pages-services-hemorrhoid-banding-js-79cdba52a154418c598e.js.map
