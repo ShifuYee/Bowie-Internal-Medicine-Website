@@ -470,11 +470,11 @@ table, th, td {
 /***** Services (../pages/services/) *****/
 
 .main-subject {
-  margin: 10px 0px;
+  margin: 10px 0;
 }
 
 .sub-topic {
-  margin: 10px 0px;
+  margin: 10px 0;
   color: #d49419;
 }
 
@@ -485,9 +485,23 @@ table, th, td {
   min-height: 1000px;
 }
 
-.service-content p {
-  font-weight: bold;
-}
+  .service-content img {
+    margin-top: 15px;
+  }
+
+  .service-content p {
+    font-weight: bold;
+  }
+
+  .service-content h3 {
+    color: #0C0;
+  }
+
+  .service-content li {
+    margin-left: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
 
 /***** Media Restrictions *****/
 /* Extra small devices (phones, 600px and down) */
