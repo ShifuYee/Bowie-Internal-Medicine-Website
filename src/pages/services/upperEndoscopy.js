@@ -1,8 +1,11 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+import homeimage from '../../images/home-page-image.jpg'
+
 const UpperEndoscopy = () => (
   <div className="service-content">
+    <img alt="Home Page Image" src={homeimage} className="img-responsive" />
     <h1 className="main-subject">Understanding Upper GI Endoscopy</h1>		
     <h2 className="sub-topic">What is Upper Endoscopy ?</h2>
     <p>
