@@ -44,7 +44,7 @@ class NavBar extends React.Component {
             <Link to="/about/">About Us</Link>
             <div className="dropdown">
               <button className="dropbtn">
-                Services <FontAwesomeIcon icon={faCaretDown} />
+                Services <i className="fas fa-caret-down"></i>
               </button>
               <div className="dropdown-content">
                 <Link to="/services/upperendoscopy/">Upper Endoscopy</Link>
@@ -76,7 +76,7 @@ class NavBar extends React.Component {
           <Link to="/about/">About Us</Link>
           <div className="dropdown-btn">
             <button className="dropbtn">
-              Services <FontAwesomeIcon icon={faCaretDown} />
+              Services <i className="fas fa-caret-down"></i>
             </button>
             <div className="dropdown-content">
               <Link to="/services/upperendoscopy/">Upper Endoscopy</Link>
