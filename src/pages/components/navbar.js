@@ -2,7 +2,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSearch, faCaretDown } from '@fortawesome/free-solid-svg-icons'
+import { faSearch } from '@fortawesome/free-solid-svg-icons'
 
 // Images
 import logo from '../../images/BowieM_logo.png'
@@ -54,7 +54,15 @@ class NavBar extends React.Component {
               </div>
             </div>
             <Link to="/providersandstaff/">Providers & Staff</Link>
-            <Link to="/resources/">Resources</Link>
+            <div className="dropdown">
+              <button className="dropbtn">
+                Resources <i className="fas fa-caret-down"></i>
+              </button>
+              <div className="dropdown-content">
+                <Link to="/resources/barrett/">GI Disorders</Link>
+                <Link to="/resources/clearLiquidDiet/">Dietary Information</Link>
+              </div>
+            </div>
             <Link to="/pay/">Pay</Link>
             <Link to="/portal/">Portal</Link>
             <Link to="/contactus/">Contact Us</Link>
@@ -86,7 +94,15 @@ class NavBar extends React.Component {
             </div>
           </div>
           <Link to="/providersandstaff/">Providers & Staff</Link>
-          <Link to="/resources/">Resources</Link>
+          <div className="dropdown-btn">
+            <button className="dropbtn">
+              Resources <i className="fas fa-caret-down"></i>
+            </button>
+            <div className="dropdown-content">
+              <Link to="/resources/barrett/">GI Disorders</Link>
+              <Link to="/resources/clearLiquidDiet/">Dietary Information</Link>
+            </div>
+          </div>
           <Link to="/pay/">Pay</Link>
           <Link to="/portal/">Portal</Link>
           <Link to="/contactus/">Contact Us</Link>
