@@ -503,6 +503,41 @@ table, th, td {
     font-weight: bold;
   }
 
+/***** Resources *****/
+
+.service-content-resources {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto 15px auto;
+  min-height: 1000px;
+  display: flex;
+}
+
+.service-content-resources .right-side {
+  display: block;
+  width: 80%;
+  float: left;
+}
+
+/***** Sidenav *****/
+
+.sidenav {
+  height: 100%;
+  width: 20%;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+
+
 /***** Media Restrictions *****/
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -583,7 +618,7 @@ table, th, td {
     background-color: #f2f2f2;
   }
 
-  .container, .service-content {
+  .container, .service-content, .service-content-resources {
     width: 1170px;
   }
 
