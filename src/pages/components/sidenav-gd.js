@@ -8,7 +8,7 @@ const SideNavGD = () => (
     <Link to="/resources/gi-disorders/barrett/">Barrett's Esophagus</Link>
     <Link to="/resources/gi-disorders/gastritis/">Gastritis</Link>
     <Link to="/resources/gi-disorders/pepticUlcer/">Peptic Ulcer Disease</Link>
-    <Link to="/resources/gi-disorders/barrett/">Esophagitis & Stricture</Link>
+    <Link to="/resources/gi-disorders/esophagitis/">Esophagitis & Stricture</Link>
     <Link to="/resources/gi-disorders/barrett/">Hiatal Hernia</Link>
     <Link to="/resources/gi-disorders/barrett/">Helicobacter Pylori</Link>
     <Link to="/resources/gi-disorders/barrett/">GastroEsophageal Reflux Disease (GERD)</Link>
