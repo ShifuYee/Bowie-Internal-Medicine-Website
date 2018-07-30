@@ -59,8 +59,8 @@ class NavBar extends React.Component {
                 Resources <i className="fas fa-caret-down"></i>
               </button>
               <div className="dropdown-content">
-                <Link to="/resources/barrett/">GI Disorders</Link>
-                <Link to="/resources/clearLiquidDiet/">Dietary Information</Link>
+                <Link to="/resources/gi-disorders/barrett/">GI Disorders</Link>
+                <Link to="/resources/dietary-info/clearLiquidDiet/">Dietary Information</Link>
               </div>
             </div>
             <Link to="/pay/">Pay</Link>
@@ -99,8 +99,8 @@ class NavBar extends React.Component {
               Resources <i className="fas fa-caret-down"></i>
             </button>
             <div className="dropdown-content">
-              <Link to="/resources/barrett/">GI Disorders</Link>
-              <Link to="/resources/clearLiquidDiet/">Dietary Information</Link>
+              <Link to="/resources/gi-disorders/barrett/">GI Disorders</Link>
+              <Link to="/resources/dietary-info/clearLiquidDiet/">Dietary Information</Link>
             </div>
           </div>
           <Link to="/pay/">Pay</Link>

@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import homeimage from '../../images/home-page-image.jpg'
+import homeimage from '../../../images/home-page-image.jpg'
 
 const ClearLiquidDiet = () => (
   <div className="service-content">
