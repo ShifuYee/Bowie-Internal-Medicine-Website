@@ -99,14 +99,12 @@ const Barrett = () => (
 				may slow the progress of the disease and prevent complications. 
 				Following are some things the patient can do to help reduce acid 
 				reflux and strengthen the LES:
-        <br />
-        <br />
 			<ul>
 				<li>
-					Avoid eating anything within three hours before bedtime. 
+					Avoid eating anything within three hours before bedtime.
 				</li>
 				<li>
-					Avoid smoking and tobacco products. Nicotine in the blood weakens the LES. 
+					Avoid smoking and tobacco products. Nicotine in the blood weakens the LES.
 				</li>
 				<li>
 					Avoid fatty foods, milk, chocolate, mints, caffeine, carbonated drinks, 
@@ -114,18 +112,18 @@ const Barrett = () => (
 					and alcohol (especially red wine).
 				</li>
 				<li>
-					Eat smaller meals; avoid tight clothing or bending over after eating. 
+					Eat smaller meals; avoid tight clothing or bending over after eating.
 				</li>
 				<li>
 					Review all medications with the physician. Certain drugs can weaken the LES.
 				</li>
 				<li>
-					Eat smaller meals; avoid tight clothing or bending over after eating. 
+					Eat smaller meals; avoid tight clothing or bending over after eating.
 				</li>
 				<li>
-					Elevate the head of the bed or mattress 6 to 8 inches. 
-					This helps to keep acid in the stomach by gravity. 
-					Pillows by themselves are not very helpful. 
+					Elevate the head of the bed or mattress 6 to 8 inches.
+					This helps to keep acid in the stomach by gravity.
+					Pillows by themselves are not very helpful.
 				</li>
 				<li>
 					Lose weight if overweight. This may relieve upward pressure on the stomach and LES.
