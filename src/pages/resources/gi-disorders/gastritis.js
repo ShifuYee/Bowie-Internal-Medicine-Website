@@ -31,7 +31,7 @@ const Gastritis = () => (
             Viral infection
           </li>
           <li>
-            Irritants- Chemical and environment irritants such as alcohol, 
+            Irritants - Chemical and environment irritants such as alcohol, 
             cigarette smoke, aspirin and non-steroidal anti-inflammatory 
             drugs (Ibuprofen and Naproxen Sodium) can damage the stomach
             lining and cause gastritis.

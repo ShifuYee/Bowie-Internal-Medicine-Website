@@ -176,7 +176,6 @@ const Esophagitis = () => (
         rarely excessive or serious. A rare but serious, complication is a
         perforation, or tearing, of the esophagus. This causes increasing
         pain after the procedure and may require surgery to correct it.
-
       </p>
       <h2 className="sub-topic">Summary</h2>
       <p>

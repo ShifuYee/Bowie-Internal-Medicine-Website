@@ -107,25 +107,25 @@ const PepticUlcer = () => (
 				ulcers in a dramatic way. Still, other factors are important:
 				<ul>
 					<li>
-						Caffeine and alcohol - Both of these stimulate the secretion of 
+						<u>Caffeine and alcohol</u> - Both of these stimulate the secretion of 
 						stomach acid and should be avoided in the acute phase of an ulcer.
 					</li>
 					<li>
-						Cigarettes - Nicotine will delay the healing of an ulcer. 
+            <u>Cigarettes</u> - Nicotine will delay the healing of an ulcer. 
 						There are many good reasons to stop cigarette smoking. Healing an ulcer is one of them.
 					</li>
 					<li>
-						Antacids - These agents, purchased over the counter, can be used for relief 
+            <u>Antacids</u> - These agents, purchased over the counter, can be used for relief 
 						of peptic ulcer symptoms. Except for bismuth (Pepto Bismol), 
 						which actually is used as one of the antibiotics, they do not help heal ulcers.
 					</li>
 					<li>
-						Stress - In the past, stress and emotions were felt to be a major cause 
+            <u>Stress</u> - In the past, stress and emotions were felt to be a major cause 
 						of ulcers. Now it is known that, by itself, stress rarely causes an 
 						ulcer although it probably can aggravate the symptoms.
 					</li>
 					<li>
-						Surgery - Surgery used to be a major form of ulcer treatment. Now, 
+            <u>Surgery</u> - Surgery used to be a major form of ulcer treatment. Now, 
 						it is the exceptional patient who needs surgery for an ulcer 
 						complications such as perforation, obstruction, or uncontrolled hemorrhaging.
 					</li>

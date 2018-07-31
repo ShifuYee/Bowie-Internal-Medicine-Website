@@ -519,10 +519,14 @@ table, th, td {
   font-weight: bold;
 }
 
+.service-content-resources h3 {
+  color: red;
+}
+
 /***** Sidenav *****/
 
 .sidenav {
-  height: 90%;
+  height: 35%;
   width: 20%;
   background-color: #3B5998;
   overflow-x: hidden;
@@ -533,7 +537,7 @@ table, th, td {
 }
   
   .sidenav h2 {
-    padding: 10px 10px 10px 15px;
+    padding: 0 10px 10px 15px;
   }
 
   .sidenav a {
