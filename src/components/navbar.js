@@ -5,10 +5,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
 
 // Images
-import logo from '../../images/BowieM_logo.png'
+import logo from '../images/BowieM_logo.png'
 
 // Components
-import Slider from '../components/slider'
+import Slider from './slider'
 
 class NavBar extends React.Component {
 

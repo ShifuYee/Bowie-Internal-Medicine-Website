@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import SideNavGD from '../../components/sidenav-gd'
+import SideNavGD from '../../../components/sidenav-gd'
 import homeimage from '../../../images/home-page-image.jpg'
 
 const HelicobacterPylori = () => (
