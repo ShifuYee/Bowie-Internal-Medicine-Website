@@ -10,8 +10,8 @@ const SideNavGD = () => (
     <Link to="/resources/gi-disorders/pepticUlcer/">Peptic Ulcer Disease</Link>
     <Link to="/resources/gi-disorders/esophagitis/">Esophagitis & Stricture</Link>
     <Link to="/resources/gi-disorders/hiatalHernia/">Hiatal Hernia</Link>
-    <Link to="/resources/gi-disorders/barrett/">Helicobacter Pylori</Link>
-    <Link to="/resources/gi-disorders/barrett/">GastroEsophageal Reflux Disease (GERD)</Link>
+    <Link to="/resources/gi-disorders/helicobacterPylori/">Helicobacter Pylori</Link>
+    <Link to="/resources/gi-disorders/gerd/">GastroEsophageal Reflux Disease (GERD)</Link>
     <h2>Lower GI Tract</h2>
     <Link to="/resources/gi-disorders/barrett/">Colon Polyps & Cancer</Link>
     <Link to="/resources/gi-disorders/barrett/">Diverticulosis & Diverticulitis</Link>
