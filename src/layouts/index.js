@@ -3,9 +3,6 @@ import './index.css'
 // React + Gatsby
 import React from 'react'
 import Helmet from 'react-helmet'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook, faTwitter, faGoogle } from '@fortawesome/free-brands-svg-icons'
-import { faQuestionCircle } from '@fortawesome/free-regular-svg-icons'
 
 // Components
 import NavBar from '../components/navbar'
@@ -46,18 +43,18 @@ class Layout extends React.Component {
           </div>
           <div className="icon-bar">
             <a href="#" className="facebook">
-              <FontAwesomeIcon icon={faFacebook} />
+              <i className="fab fa-facebook" />
             </a>
             <a href="#" className="twitter">
-              <FontAwesomeIcon icon={faTwitter} />
+              <i className="fab fa-twitter" />
             </a>
             <a href="#" className="google">
-              <FontAwesomeIcon icon={faGoogle} />
+              <i className="fab fa-google" />
             </a>
           </div>
           <div className="popup-button" onClick={this.togglePopup}>
             <a href="#" className="question-circle">
-              <FontAwesomeIcon icon={faQuestionCircle} />
+              <i className="fas fa-question-circle" />
             </a>
           </div>
           <Popup />

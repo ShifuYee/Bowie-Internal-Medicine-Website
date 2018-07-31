@@ -13,13 +13,13 @@ const SideNavGD = () => (
     <Link to="/resources/gi-disorders/helicobacterPylori/">Helicobacter Pylori</Link>
     <Link to="/resources/gi-disorders/gerd/">GastroEsophageal Reflux Disease (GERD)</Link>
     <h2>Lower GI Tract</h2>
-    <Link to="/resources/gi-disorders/barrett/">Colon Polyps & Cancer</Link>
-    <Link to="/resources/gi-disorders/barrett/">Diverticulosis & Diverticulitis</Link>
-    <Link to="/resources/gi-disorders/barrett/">Crohn's Disease</Link>
-    <Link to="/resources/gi-disorders/barrett/">Ulcerative Colitis</Link>
-    <Link to="/resources/gi-disorders/barrett/">Hemorrhoids</Link>
-    <Link to="/resources/gi-disorders/barrett/">Constipation</Link>
-    <Link to="/resources/gi-disorders/barrett/">Rectal Bleeding</Link>
+    <Link to="/resources/gi-disorders/colonPolyps/">Colon Polyps & Cancer</Link>
+    <Link to="/resources/gi-disorders/diverticulosis/">Diverticulosis & Diverticulitis</Link>
+    <Link to="/resources/gi-disorders/crohnDisease/">Crohn's Disease</Link>
+    <Link to="/resources/gi-disorders/ulcerativeColitis/">Ulcerative Colitis</Link>
+    <Link to="/resources/gi-disorders/hemorrhoids/">Hemorrhoids</Link>
+    <Link to="/resources/gi-disorders/constipation/">Constipation</Link>
+    <Link to="/resources/gi-disorders/rectalBleeding/">Rectal Bleeding</Link>
   </div>
 )
 
