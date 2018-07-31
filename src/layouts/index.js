@@ -8,9 +8,9 @@ import { faFacebook, faTwitter, faGoogle } from '@fortawesome/free-brands-svg-ic
 import { faQuestionCircle } from '@fortawesome/free-regular-svg-icons'
 
 // Components
-import NavBar from '../pages/components/navbar'
-import Footer from '../pages/components/footer'
-import Popup from '../pages/components/popup'
+import NavBar from '../components/navbar'
+import Footer from '../components/footer'
+import Popup from '../components/popup'
 
 // Images
 import favicon from '../images/favicon.jpg'
