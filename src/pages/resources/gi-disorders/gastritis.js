@@ -23,21 +23,21 @@ const Gastritis = () => (
         <br/>
         Many different illness and irritants, either acting alone or in combination,
         can trigger the inflammation of gastritis. Some of the most common triggers include:
-        <ol>
-          <li>
-            Infection with Helicobacter pylori (H-pylori) bacteria.
-          </li>
-          <li>
-            Viral infection
-          </li>
-          <li>
-            Irritants - Chemical and environment irritants such as alcohol, 
-            cigarette smoke, aspirin and non-steroidal anti-inflammatory 
-            drugs (Ibuprofen and Naproxen Sodium) can damage the stomach
-            lining and cause gastritis.
-          </li>
-			  </ol>
       </p>
+      <ol>
+        <li>
+          Infection with Helicobacter pylori (H-pylori) bacteria.
+        </li>
+        <li>
+          Viral infection
+        </li>
+        <li>
+          Irritants - Chemical and environment irritants such as alcohol, 
+          cigarette smoke, aspirin and non-steroidal anti-inflammatory 
+          drugs (Ibuprofen and Naproxen Sodium) can damage the stomach
+          lining and cause gastritis.
+        </li>
+      </ol>
       <h2 className="sub-topic">Symptoms of Gastritis may include:</h2>
       <ol>
 				<li>
@@ -87,45 +87,45 @@ const Gastritis = () => (
       <p>
         Treatment of gastritis without bleeding depends on the patient's sign and symptoms.
         For patients who have mild and uncomplicated gastritis, the treatment approach includes:
-        <ol>
-          <li>
-            Stopping smoking.
-          </li>
-          <li>
-            Stopping alcohol use temporarily- after gastritis heals, patients 
-            may be advised no more than one or two drinks a day or none at all.
-          </li>
-          <li>
-            Avoiding foods that are fatty, spicy or very acidic such as coffee,
-            orange juice and tomato juice.
-          </li>
-          <li>
-            Pharmacological treatment may involve the use of antacids, 
-            H2 blocker such as Zantac, Proton Pump inhibitor medication 
-            such as Prevacid, Prilosec and Nexium.
-          </li>
-        </ol>
       </p>
+      <ol>
+        <li>
+          Stopping smoking.
+        </li>
+        <li>
+          Stopping alcohol use temporarily- after gastritis heals, patients 
+          may be advised no more than one or two drinks a day or none at all.
+        </li>
+        <li>
+          Avoiding foods that are fatty, spicy or very acidic such as coffee,
+          orange juice and tomato juice.
+        </li>
+        <li>
+          Pharmacological treatment may involve the use of antacids, 
+          H2 blocker such as Zantac, Proton Pump inhibitor medication 
+          such as Prevacid, Prilosec and Nexium.
+        </li>
+      </ol>
       <h2 className="sub-topic">Prevention</h2>
       <p>
         To help prevent gastritis:
-        <ol>
-          <li>
-            Don't smoke.
-          </li>
-          <li>
-            If you drink alcohol, do so in moderation.
-          </li>
-          <li>
-            If you take a non-steroidal anti-inflammatory drug to treat
-            a medical problem, and this medicine upsets your stomach,
-            stop the medicine and speak with your doctor.
-          </li>
-          <li>
-            Always wash your hands before you eat and after you use the restroom.
-          </li>
-        </ol>
       </p>
+      <ol>
+        <li>
+          Don't smoke.
+        </li>
+        <li>
+          If you drink alcohol, do so in moderation.
+        </li>
+        <li>
+          If you take a non-steroidal anti-inflammatory drug to treat
+          a medical problem, and this medicine upsets your stomach,
+          stop the medicine and speak with your doctor.
+        </li>
+        <li>
+          Always wash your hands before you eat and after you use the restroom.
+        </li>
+      </ol>
     </div>
   </div>
 )

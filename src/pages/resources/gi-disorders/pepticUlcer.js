@@ -105,32 +105,32 @@ const PepticUlcer = () => (
       <p>
         The factors discussed above have altered the approach to 
 				ulcers in a dramatic way. Still, other factors are important:
-				<ul>
-					<li>
-						<u>Caffeine and alcohol</u> - Both of these stimulate the secretion of 
-						stomach acid and should be avoided in the acute phase of an ulcer.
-					</li>
-					<li>
-            <u>Cigarettes</u> - Nicotine will delay the healing of an ulcer. 
-						There are many good reasons to stop cigarette smoking. Healing an ulcer is one of them.
-					</li>
-					<li>
-            <u>Antacids</u> - These agents, purchased over the counter, can be used for relief 
-						of peptic ulcer symptoms. Except for bismuth (Pepto Bismol), 
-						which actually is used as one of the antibiotics, they do not help heal ulcers.
-					</li>
-					<li>
-            <u>Stress</u> - In the past, stress and emotions were felt to be a major cause 
-						of ulcers. Now it is known that, by itself, stress rarely causes an 
-						ulcer although it probably can aggravate the symptoms.
-					</li>
-					<li>
-            <u>Surgery</u> - Surgery used to be a major form of ulcer treatment. Now, 
-						it is the exceptional patient who needs surgery for an ulcer 
-						complications such as perforation, obstruction, or uncontrolled hemorrhaging.
-					</li>
-				</ul>
       </p>
+      <ul>
+        <li>
+          <u>Caffeine and alcohol</u> - Both of these stimulate the secretion of 
+          stomach acid and should be avoided in the acute phase of an ulcer.
+        </li>
+        <li>
+          <u>Cigarettes</u> - Nicotine will delay the healing of an ulcer. 
+          There are many good reasons to stop cigarette smoking. Healing an ulcer is one of them.
+        </li>
+        <li>
+          <u>Antacids</u> - These agents, purchased over the counter, can be used for relief 
+          of peptic ulcer symptoms. Except for bismuth (Pepto Bismol), 
+          which actually is used as one of the antibiotics, they do not help heal ulcers.
+        </li>
+        <li>
+          <u>Stress</u> - In the past, stress and emotions were felt to be a major cause 
+          of ulcers. Now it is known that, by itself, stress rarely causes an 
+          ulcer although it probably can aggravate the symptoms.
+        </li>
+        <li>
+          <u>Surgery</u> - Surgery used to be a major form of ulcer treatment. Now, 
+          it is the exceptional patient who needs surgery for an ulcer 
+          complications such as perforation, obstruction, or uncontrolled hemorrhaging.
+        </li>
+      </ul>
       <h2 className="sub-topic">Summary</h2>
       <p>
         A new era of peptic ulcer disease is at hand. A firm understanding 

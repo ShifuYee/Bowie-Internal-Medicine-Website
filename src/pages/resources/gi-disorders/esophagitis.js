@@ -27,30 +27,30 @@ const Esophagitis = () => (
         However, the LES muscle does not always work perfectly. It can easily be
         overcome by a number of factors, the most common being eating a large meal.
         Other agents that weaken the LES muscle and allow reflux of stomach juices are:
-        <ul>
-          <li>
-            Nicotine (cigarettes)
-          </li>
-          <li>
-            Fried or fatty foods 
-          </li>
-          <li>
-            Chocolate 
-          </li>
-          <li>
-            Coffee 
-          </li>
-          <li>
-            Citrus fruits and juices 
-          </li>
-          <li>
-            Peppermints 
-          </li>
-          <li>
-            Pregnancy 
-          </li>
-			  </ul>
       </p>
+      <ul>
+        <li>
+          Nicotine (cigarettes)
+        </li>
+        <li>
+          Fried or fatty foods 
+        </li>
+        <li>
+          Chocolate 
+        </li>
+        <li>
+          Coffee 
+        </li>
+        <li>
+          Citrus fruits and juices 
+        </li>
+        <li>
+          Peppermints 
+        </li>
+        <li>
+          Pregnancy 
+        </li>
+      </ul>
       <h2 className="sub-topic">What is Esophagitis ?</h2>
       <p>
         When stomach acid and digestive enzymes repeatedly reflux into the esophagus,
@@ -98,31 +98,31 @@ const Esophagitis = () => (
       <h2 className="sub-topic">Treatment</h2>
       <p>
         General measures the patient can take to treat esophagitis are:
-				<ul>
-					<li>
-						Eat smaller and more frequent meals.
-					</li>
-					<li>
-						Avoid eating for 2 hours before going to bed.
-					</li>
-					<li>
-						Eliminate excessive bending, lifting, abdominal exercises, girdles,
-						and tight belts, all of which increase abdominal pressure and provoke reflux.
-					</li>
-					<li>
-						If overweight, lose weight. Being overweight causes reflux.
-					</li>
-					<li>
-						Eliminate or significantly reduce consumption of nicotine
-						(cigarettes), fatty foods, alcohol, coffee, chocolate, and peppermint.
-					</li>
-					<li>
-						Elevate the head of the bed 8" to 10" by placing pillows or a wedge under
-						the upper part of the mattress. In this way, gravity helps keep stomach 
-						juices out of the esophagus during sleep.
-					</li>
-				</ul>
       </p>
+      <ul>
+        <li>
+          Eat smaller and more frequent meals.
+        </li>
+        <li>
+          Avoid eating for 2 hours before going to bed.
+        </li>
+        <li>
+          Eliminate excessive bending, lifting, abdominal exercises, girdles,
+          and tight belts, all of which increase abdominal pressure and provoke reflux.
+        </li>
+        <li>
+          If overweight, lose weight. Being overweight causes reflux.
+        </li>
+        <li>
+          Eliminate or significantly reduce consumption of nicotine
+          (cigarettes), fatty foods, alcohol, coffee, chocolate, and peppermint.
+        </li>
+        <li>
+          Elevate the head of the bed 8" to 10" by placing pillows or a wedge under
+          the upper part of the mattress. In this way, gravity helps keep stomach 
+          juices out of the esophagus during sleep.
+        </li>
+      </ul>
       <h2 className="sub-topic">Other Treatments Include:</h2>
       <p>
         <b>Antacids</b> - These can and should be used often. Generally, antacids should be
@@ -149,22 +149,22 @@ const Esophagitis = () => (
         open, or dilate, a stricture. Dilation is often performed in 
         conjunction with an upper endoscopy exam. One of the following 
         dilatation methods may be used:
-        <ul>
-          <li>
-            Bougie - A series of increasingly larger, soft rubber or 
-            plastic dilators are moved across the stricture, gently opening it. 
-          </li>
-          <li>
-            Guided wire - A thin wire, placed across the stricture, is used to 
-            guide increasingly wider dilators over it.
-          </li>
-          <li>
-            Balloons - Different types of sausage-shaped balloons can be 
-            placed across the stricture. The balloon is sharply inflated 
-            to open the narrowed area.
-          </li>
-        </ul>
       </p>
+      <ul>
+        <li>
+          Bougie - A series of increasingly larger, soft rubber or 
+          plastic dilators are moved across the stricture, gently opening it. 
+        </li>
+        <li>
+          Guided wire - A thin wire, placed across the stricture, is used to 
+          guide increasingly wider dilators over it.
+        </li>
+        <li>
+          Balloons - Different types of sausage-shaped balloons can be 
+          placed across the stricture. The balloon is sharply inflated 
+          to open the narrowed area.
+        </li>
+      </ul>
       <h2 className="sub-topic">Are There any Alternatives to Dilation ?</h2>
       <p>
         The only alternative to dilatation for opening a stricture is surgery. 
