@@ -4,29 +4,29 @@
       "path---services-capsule-endoscopy-a0e39f21c11f6a62c5ab.js",
       "path---services-capsule-endoscopy-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "component---src-pages-resources-gi-disorders-peptic-ulcer-js": [
+      "component---src-pages-resources-gi-disorders-peptic-ulcer-js-0048ac4b0ac3ac21556d.js",
+      "component---src-pages-resources-gi-disorders-peptic-ulcer-js-0048ac4b0ac3ac21556d.js.map"
+    ],
     "component---src-pages-services-capsule-endoscopy-js": [
       "component---src-pages-services-capsule-endoscopy-js-0e55062137df26493dbd.js",
       "component---src-pages-services-capsule-endoscopy-js-0e55062137df26493dbd.js.map"
+    ],
+    "path---resources-gi-disorders-gerd": [
+      "path---resources-gi-disorders-gerd-a0e39f21c11f6a62c5ab.js",
+      "path---resources-gi-disorders-gerd-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-services-colonoscopy-js": [
       "component---src-pages-services-colonoscopy-js-f99d959f134a6e99cc51.js",
       "component---src-pages-services-colonoscopy-js-f99d959f134a6e99cc51.js.map"
     ],
-    "path---components-footer": [
-      "path---components-footer-a0e39f21c11f6a62c5ab.js",
-      "path---components-footer-a0e39f21c11f6a62c5ab.js.map"
-    ],
-    "path---components-popup": [
-      "path---components-popup-a0e39f21c11f6a62c5ab.js",
-      "path---components-popup-a0e39f21c11f6a62c5ab.js.map"
+    "path---resources-gi-disorders-hiatal-hernia": [
+      "path---resources-gi-disorders-hiatal-hernia-a0e39f21c11f6a62c5ab.js",
+      "path---resources-gi-disorders-hiatal-hernia-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-8877161edc4f90b73951.js",
       "component---src-pages-index-js-8877161edc4f90b73951.js.map"
-    ],
-    "component---src-pages-components-footer-js": [
-      "component---src-pages-components-footer-js-e1294ed20d2e8d988b43.js",
-      "component---src-pages-components-footer-js-e1294ed20d2e8d988b43.js.map"
     ],
     "component---src-pages-providers-and-staff-js": [
       "component---src-pages-providers-and-staff-js-a375f3c8a055f59b807e.js",
@@ -52,17 +52,13 @@
       "path---services-upper-endoscopy-a0e39f21c11f6a62c5ab.js",
       "path---services-upper-endoscopy-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "component---src-pages-resources-gi-disorders-helicobacter-pylori-js": [
+      "component---src-pages-resources-gi-disorders-helicobacter-pylori-js-a4c6cd5bec80c0d9128d.js",
+      "component---src-pages-resources-gi-disorders-helicobacter-pylori-js-a4c6cd5bec80c0d9128d.js.map"
+    ],
     "path---providers-and-staff": [
       "path---providers-and-staff-a0e39f21c11f6a62c5ab.js",
       "path---providers-and-staff-a0e39f21c11f6a62c5ab.js.map"
-    ],
-    "component---src-pages-resources-js": [
-      "component---src-pages-resources-js-537fbe96aee9de3bde55.js",
-      "component---src-pages-resources-js-537fbe96aee9de3bde55.js.map"
-    ],
-    "component---src-pages-components-slider-js": [
-      "component---src-pages-components-slider-js-3d023dbbd7b505465f64.js",
-      "component---src-pages-components-slider-js-3d023dbbd7b505465f64.js.map"
     ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
@@ -73,12 +69,24 @@
       "component---src-pages-services-upper-endoscopy-js-21970d7a9a84fcf74873.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-9c8eb97cc7f64605d1e5.js",
-      "component---src-layouts-index-js-9c8eb97cc7f64605d1e5.js.map"
+      "component---src-layouts-index-js-f0888bd7aaccc6291efe.js",
+      "component---src-layouts-index-js-f0888bd7aaccc6291efe.js.map"
     ],
-    "component---src-pages-components-popup-js": [
-      "component---src-pages-components-popup-js-668e3f3d5173ca7152d5.js",
-      "component---src-pages-components-popup-js-668e3f3d5173ca7152d5.js.map"
+    "component---src-pages-resources-dietary-info-clear-liquid-diet-js": [
+      "component---src-pages-resources-dietary-info-clear-liquid-diet-js-98cb466d160629ca6afb.js",
+      "component---src-pages-resources-dietary-info-clear-liquid-diet-js-98cb466d160629ca6afb.js.map"
+    ],
+    "component---src-pages-resources-gi-disorders-gastritis-js": [
+      "component---src-pages-resources-gi-disorders-gastritis-js-0949d743dd6c130ff98f.js",
+      "component---src-pages-resources-gi-disorders-gastritis-js-0949d743dd6c130ff98f.js.map"
+    ],
+    "component---src-pages-resources-gi-disorders-hiatal-hernia-js": [
+      "component---src-pages-resources-gi-disorders-hiatal-hernia-js-d0e374008dcc1e31db0e.js",
+      "component---src-pages-resources-gi-disorders-hiatal-hernia-js-d0e374008dcc1e31db0e.js.map"
+    ],
+    "path---resources-gi-disorders-helicobacter-pylori": [
+      "path---resources-gi-disorders-helicobacter-pylori-a0e39f21c11f6a62c5ab.js",
+      "path---resources-gi-disorders-helicobacter-pylori-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -89,14 +97,18 @@
       "component---src-pages-404-js-bd80fdf6042ab5687e4f.js.map"
     ],
     "commons": [
-      "commons-97826e8f263086b5d7de.js",
+      "commons-0201721c936e4aaa625c.js",
       "build-js-styles.css",
-      "commons-97826e8f263086b5d7de.js.map",
+      "commons-0201721c936e4aaa625c.js.map",
       "build-js-styles.css.map"
     ],
-    "path---resources": [
-      "path---resources-a0e39f21c11f6a62c5ab.js",
-      "path---resources-a0e39f21c11f6a62c5ab.js.map"
+    "component---src-pages-resources-gi-disorders-barrett-js": [
+      "component---src-pages-resources-gi-disorders-barrett-js-5cdcb27fc240849cf9b0.js",
+      "component---src-pages-resources-gi-disorders-barrett-js-5cdcb27fc240849cf9b0.js.map"
+    ],
+    "path---resources-gi-disorders-peptic-ulcer": [
+      "path---resources-gi-disorders-peptic-ulcer-a0e39f21c11f6a62c5ab.js",
+      "path---resources-gi-disorders-peptic-ulcer-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
@@ -106,27 +118,35 @@
       "component---src-pages-services-hemorrhoid-banding-js-684565f63e32cbd94bd8.js",
       "component---src-pages-services-hemorrhoid-banding-js-684565f63e32cbd94bd8.js.map"
     ],
-    "path---components-slider": [
-      "path---components-slider-a0e39f21c11f6a62c5ab.js",
-      "path---components-slider-a0e39f21c11f6a62c5ab.js.map"
+    "component---src-pages-resources-gi-disorders-gerd-js": [
+      "component---src-pages-resources-gi-disorders-gerd-js-b5772229189e02149544.js",
+      "component---src-pages-resources-gi-disorders-gerd-js-b5772229189e02149544.js.map"
+    ],
+    "path---resources-gi-disorders-esophagitis": [
+      "path---resources-gi-disorders-esophagitis-a0e39f21c11f6a62c5ab.js",
+      "path---resources-gi-disorders-esophagitis-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-95630bdf29c8624d8fbd.js",
+      "app-b731a9f01a14a6555a33.js",
       "build-js-styles.css",
-      "app-95630bdf29c8624d8fbd.js.map",
+      "app-b731a9f01a14a6555a33.js.map",
       "build-js-styles.css.map"
+    ],
+    "path---resources-dietary-info-clear-liquid-diet": [
+      "path---resources-dietary-info-clear-liquid-diet-a0e39f21c11f6a62c5ab.js",
+      "path---resources-dietary-info-clear-liquid-diet-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---resources-gi-disorders-gastritis": [
+      "path---resources-gi-disorders-gastritis-a0e39f21c11f6a62c5ab.js",
+      "path---resources-gi-disorders-gastritis-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---pay": [
       "path---pay-a0e39f21c11f6a62c5ab.js",
       "path---pay-a0e39f21c11f6a62c5ab.js.map"
-    ],
-    "component---src-pages-components-navbar-js": [
-      "component---src-pages-components-navbar-js-5ee491f08ba9e84d02a2.js",
-      "component---src-pages-components-navbar-js-5ee491f08ba9e84d02a2.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
@@ -135,10 +155,6 @@
     "component---src-pages-pay-js": [
       "component---src-pages-pay-js-fa2abb98e7e3fcd47ffe.js",
       "component---src-pages-pay-js-fa2abb98e7e3fcd47ffe.js.map"
-    ],
-    "path---services": [
-      "path---services-a0e39f21c11f6a62c5ab.js",
-      "path---services-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-portal-js": [
       "component---src-pages-portal-js-e26cf00f29b18fd457b1.js",
@@ -152,10 +168,6 @@
       "path---services-colonoscopy-a0e39f21c11f6a62c5ab.js",
       "path---services-colonoscopy-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "component---src-pages-services-js": [
-      "component---src-pages-services-js-c3e6ba3f1ce6ee689746.js",
-      "component---src-pages-services-js-c3e6ba3f1ce6ee689746.js.map"
-    ],
     "path---about": [
       "path---about-a0e39f21c11f6a62c5ab.js",
       "path---about-a0e39f21c11f6a62c5ab.js.map"
@@ -164,9 +176,13 @@
       "path---contact-us-a0e39f21c11f6a62c5ab.js",
       "path---contact-us-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "path---components-navbar": [
-      "path---components-navbar-a0e39f21c11f6a62c5ab.js",
-      "path---components-navbar-a0e39f21c11f6a62c5ab.js.map"
+    "component---src-pages-resources-gi-disorders-esophagitis-js": [
+      "component---src-pages-resources-gi-disorders-esophagitis-js-2a650b0513c8d22f0175.js",
+      "component---src-pages-resources-gi-disorders-esophagitis-js-2a650b0513c8d22f0175.js.map"
+    ],
+    "path---resources-gi-disorders-barrett": [
+      "path---resources-gi-disorders-barrett-a0e39f21c11f6a62c5ab.js",
+      "path---resources-gi-disorders-barrett-a0e39f21c11f6a62c5ab.js.map"
     ]
   }
 }
