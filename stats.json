@@ -24,6 +24,14 @@
       "path---resources-gi-disorders-hiatal-hernia-a0e39f21c11f6a62c5ab.js",
       "path---resources-gi-disorders-hiatal-hernia-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "path---resources-gi-disorders-diverticulosis": [
+      "path---resources-gi-disorders-diverticulosis-a0e39f21c11f6a62c5ab.js",
+      "path---resources-gi-disorders-diverticulosis-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-resources-gi-disorders-ulcerative-colitis-js": [
+      "component---src-pages-resources-gi-disorders-ulcerative-colitis-js-7faa930e51f600e8905f.js",
+      "component---src-pages-resources-gi-disorders-ulcerative-colitis-js-7faa930e51f600e8905f.js.map"
+    ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-8877161edc4f90b73951.js",
       "component---src-pages-index-js-8877161edc4f90b73951.js.map"
@@ -40,6 +48,10 @@
       "path---services-hemorrhoid-banding-a0e39f21c11f6a62c5ab.js",
       "path---services-hemorrhoid-banding-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "path---resources-gi-disorders-hemorrhoids": [
+      "path---resources-gi-disorders-hemorrhoids-a0e39f21c11f6a62c5ab.js",
+      "path---resources-gi-disorders-hemorrhoids-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "path---portal": [
       "path---portal-a0e39f21c11f6a62c5ab.js",
       "path---portal-a0e39f21c11f6a62c5ab.js.map"
@@ -51,6 +63,18 @@
     "path---services-upper-endoscopy": [
       "path---services-upper-endoscopy-a0e39f21c11f6a62c5ab.js",
       "path---services-upper-endoscopy-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---resources-gi-disorders-ulcerative-colitis": [
+      "path---resources-gi-disorders-ulcerative-colitis-a0e39f21c11f6a62c5ab.js",
+      "path---resources-gi-disorders-ulcerative-colitis-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---resources-gi-disorders-rectal-bleeding": [
+      "path---resources-gi-disorders-rectal-bleeding-a0e39f21c11f6a62c5ab.js",
+      "path---resources-gi-disorders-rectal-bleeding-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---resources-gi-disorders-constipation": [
+      "path---resources-gi-disorders-constipation-a0e39f21c11f6a62c5ab.js",
+      "path---resources-gi-disorders-constipation-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-resources-gi-disorders-helicobacter-pylori-js": [
       "component---src-pages-resources-gi-disorders-helicobacter-pylori-js-a4c6cd5bec80c0d9128d.js",
@@ -69,8 +93,12 @@
       "component---src-pages-services-upper-endoscopy-js-21970d7a9a84fcf74873.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-f0888bd7aaccc6291efe.js",
-      "component---src-layouts-index-js-f0888bd7aaccc6291efe.js.map"
+      "component---src-layouts-index-js-ad39544ce5bc526a76b9.js",
+      "component---src-layouts-index-js-ad39544ce5bc526a76b9.js.map"
+    ],
+    "path---resources-gi-disorders-crohn-disease": [
+      "path---resources-gi-disorders-crohn-disease-a0e39f21c11f6a62c5ab.js",
+      "path---resources-gi-disorders-crohn-disease-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-resources-dietary-info-clear-liquid-diet-js": [
       "component---src-pages-resources-dietary-info-clear-liquid-diet-js-98cb466d160629ca6afb.js",
@@ -88,6 +116,10 @@
       "path---resources-gi-disorders-helicobacter-pylori-a0e39f21c11f6a62c5ab.js",
       "path---resources-gi-disorders-helicobacter-pylori-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "component---src-pages-resources-gi-disorders-colon-polyps-js": [
+      "component---src-pages-resources-gi-disorders-colon-polyps-js-1dc3c7b2346632c721f4.js",
+      "component---src-pages-resources-gi-disorders-colon-polyps-js-1dc3c7b2346632c721f4.js.map"
+    ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
       "path---index-a0e39f21c11f6a62c5ab.js.map"
@@ -97,9 +129,9 @@
       "component---src-pages-404-js-bd80fdf6042ab5687e4f.js.map"
     ],
     "commons": [
-      "commons-0201721c936e4aaa625c.js",
+      "commons-bee5924820958a60425f.js",
       "build-js-styles.css",
-      "commons-0201721c936e4aaa625c.js.map",
+      "commons-bee5924820958a60425f.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-pages-resources-gi-disorders-barrett-js": [
@@ -122,6 +154,10 @@
       "component---src-pages-resources-gi-disorders-gerd-js-b5772229189e02149544.js",
       "component---src-pages-resources-gi-disorders-gerd-js-b5772229189e02149544.js.map"
     ],
+    "component---src-pages-resources-gi-disorders-crohn-disease-js": [
+      "component---src-pages-resources-gi-disorders-crohn-disease-js-829e4e233395665e3773.js",
+      "component---src-pages-resources-gi-disorders-crohn-disease-js-829e4e233395665e3773.js.map"
+    ],
     "path---resources-gi-disorders-esophagitis": [
       "path---resources-gi-disorders-esophagitis-a0e39f21c11f6a62c5ab.js",
       "path---resources-gi-disorders-esophagitis-a0e39f21c11f6a62c5ab.js.map"
@@ -130,10 +166,18 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "component---src-pages-resources-gi-disorders-hemorrhoids-js": [
+      "component---src-pages-resources-gi-disorders-hemorrhoids-js-635bb5b77dc55c12e55d.js",
+      "component---src-pages-resources-gi-disorders-hemorrhoids-js-635bb5b77dc55c12e55d.js.map"
+    ],
+    "component---src-pages-resources-gi-disorders-rectal-bleeding-js": [
+      "component---src-pages-resources-gi-disorders-rectal-bleeding-js-6e9c28f7cf6878d07df7.js",
+      "component---src-pages-resources-gi-disorders-rectal-bleeding-js-6e9c28f7cf6878d07df7.js.map"
+    ],
     "app": [
-      "app-b731a9f01a14a6555a33.js",
+      "app-d564da7f6968dfa6a3d5.js",
       "build-js-styles.css",
-      "app-b731a9f01a14a6555a33.js.map",
+      "app-d564da7f6968dfa6a3d5.js.map",
       "build-js-styles.css.map"
     ],
     "path---resources-dietary-info-clear-liquid-diet": [
@@ -160,13 +204,25 @@
       "component---src-pages-portal-js-e26cf00f29b18fd457b1.js",
       "component---src-pages-portal-js-e26cf00f29b18fd457b1.js.map"
     ],
+    "component---src-pages-resources-gi-disorders-diverticulosis-js": [
+      "component---src-pages-resources-gi-disorders-diverticulosis-js-1c12ff270e0ca0fdc811.js",
+      "component---src-pages-resources-gi-disorders-diverticulosis-js-1c12ff270e0ca0fdc811.js.map"
+    ],
     "component---src-pages-about-js": [
       "component---src-pages-about-js-74795950fcf27dca5df2.js",
       "component---src-pages-about-js-74795950fcf27dca5df2.js.map"
     ],
+    "path---resources-gi-disorders-colon-polyps": [
+      "path---resources-gi-disorders-colon-polyps-a0e39f21c11f6a62c5ab.js",
+      "path---resources-gi-disorders-colon-polyps-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "path---services-colonoscopy": [
       "path---services-colonoscopy-a0e39f21c11f6a62c5ab.js",
       "path---services-colonoscopy-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-resources-gi-disorders-constipation-js": [
+      "component---src-pages-resources-gi-disorders-constipation-js-a5a8c63f2618f3fc4d03.js",
+      "component---src-pages-resources-gi-disorders-constipation-js-a5a8c63f2618f3fc4d03.js.map"
     ],
     "path---about": [
       "path---about-a0e39f21c11f6a62c5ab.js",
