@@ -519,8 +519,15 @@ table, th, td {
   font-weight: bold;
 }
 
-.service-content-resources h3 {
+.service-content-resources h3, .service-content-resources i {
   color: red;
+}
+
+/***** Dietary Info *****/
+
+.diet-info {
+  margin: auto;
+  background-color: #ffecc6;
 }
 
 /***** Sidenav *****/

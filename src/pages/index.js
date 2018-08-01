@@ -31,10 +31,10 @@ const HomePage = () => (
           <Tab>Patient Portal</Tab>
         </TabList>
         <TabPanel>
-          <h2>TODO 1</h2>
+          <h2></h2>
         </TabPanel>
         <TabPanel>
-          <h2>TODO 2</h2>
+          <h2></h2>
         </TabPanel>
         <TabPanel>
           <table className="office-hours">
