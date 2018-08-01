@@ -519,7 +519,7 @@ table, th, td {
   font-weight: bold;
 }
 
-.service-content-resources h3 {
+.service-content-resources h3, .service-content-resources i {
   color: red;
 }
 
